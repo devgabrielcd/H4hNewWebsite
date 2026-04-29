@@ -1,0 +1,21 @@
+{
+  "name": "h4hnew",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=20.9.0 <25"
+  },
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build",
+    "start": "next start",
+    "dev:turbo": "next dev"
+  },
+  "dependencies": {
+    "googleapis": "^171.4.0",
+    "next": "16.2.3",
+    "nodemailer": "^8.0.5",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  }
+}

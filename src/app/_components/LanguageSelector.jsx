@@ -1,0 +1,61 @@
+"use client";
+
+import { startTransition, useEffect, useState } from "react";
+import { usePathname, useRouter } from "next/navigation";
+import { localizePath } from "@/lib/i18n";
+
+const LANGUAGE_OPTIONS = [
+  { value: "en", label: "English" },
+  { value: "es", label: "Spanish" },
+  { value: "ht", label: "Creole" },
+];
+
+const STORAGE_KEY = "h4h-language";
+
+export default function LanguageSelector({ locale = "en" }) {
+  const pathname = usePathname();
+  const router = useRouter();
+  const [language, setLanguage] = useState(locale);
+
+  useEffect(() => {
+    setLanguage(locale);
+  }, [locale]);
+
+  const handleLanguageChange = (event) => {
+    const nextLanguage = event.target.value;
+
+    setLanguage(nextLanguage);
+    window.localStorage.setItem(STORAGE_KEY, nextLanguage);
+    document.cookie = `${STORAGE_KEY}=${nextLanguage}; path=/; max-age=31536000; SameSite=Lax`;
+    document.documentElement.lang = nextLanguage;
+    document.documentElement.dataset.language = nextLanguage;
+
+    startTransition(() => {
+      router.replace(localizePath(pathname || "/", nextLanguage));
+    });
+  };
+
+  return (
+    <div className="language-selector">
+      <label className="language-selector__label" htmlFor="site-language">
+        Language
+      </label>
+      <div className="language-selector__control">
+        <i className="bi bi-globe2" aria-hidden="true" />
+        <select
+          id="site-language"
+          name="site-language"
+          value={language}
+          aria-label="Select site language"
+          onChange={handleLanguageChange}
+        >
+          {LANGUAGE_OPTIONS.map((option) => (
+            <option key={option.value} value={option.value}>
+              {option.label}
+            </option>
+          ))}
+        </select>
+      </div>
+    </div>
+  );
+}
