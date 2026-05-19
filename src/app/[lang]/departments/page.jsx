@@ -22,6 +22,15 @@ const departmentImages = [
   "/assets/img/health/emergency-4.webp",
 ];
 
+const departmentServiceSlugs = [
+  "health-insurance",
+  "medicare",
+  "life-insurance",
+  "dental-vision",
+  "final-expense",
+  "accident-insurance",
+];
+
 export default async function DepartmentsPage({ params }) {
   const { lang = "en" } = await params;
   const departments = getDepartmentsDictionary(lang);
@@ -72,8 +81,13 @@ export default async function DepartmentsPage({ params }) {
                     </div>
                     <div className="department-image">
                       <img src={departmentImages[index]} alt={card.imageAlt} className="img-fluid" />
-                      <div className="department-overlay"><a href={localizePath("/department-details", lang)} className="department-link"><i className="fas fa-arrow-right"></i></a></div>
+                      <div className="department-overlay"><span className="department-link"><i className="fas fa-arrow-right"></i></span></div>
                     </div>
+                    <a
+                      href={localizePath(`/service-details/${departmentServiceSlugs[index]}`, lang)}
+                      className="department-card-link"
+                      aria-label={`${card.title} ${departments.breadcrumb}`}
+                    ></a>
                   </div>
                 </div>
               ))}

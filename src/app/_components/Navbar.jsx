@@ -3,7 +3,8 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import LanguageSelector from "./LanguageSelector";
-import { getShellDictionary, localizePath, removeLocaleFromPathname } from "@/lib/i18n";
+import QuoteModalLauncher from "./QuoteModalLauncher";
+import { getAppointmentDictionary, getShellDictionary, localizePath, removeLocaleFromPathname } from "@/lib/i18n";
 
 function isActive(pathname, path) {
   return pathname === path ? "active" : undefined;
@@ -12,6 +13,7 @@ function isActive(pathname, path) {
 export default function Navbar({ locale = "en" }) {
   const pathname = removeLocaleFromPathname(usePathname() || "/");
   const t = getShellDictionary(locale);
+  const appointment = getAppointmentDictionary(locale);
 
   return (
     <header id="header" className="header fixed-top">
@@ -176,9 +178,12 @@ export default function Navbar({ locale = "en" }) {
 
         <div className="header-actions">
           <LanguageSelector locale={locale} />
-          <Link className="btn-getstarted" href={localizePath("/appointment", locale)}>
-            {t.nav.quote}
-          </Link>
+          <QuoteModalLauncher
+            className="btn-getstarted"
+            form={appointment.form}
+            label={t.nav.quote}
+            locale={locale}
+          />
         </div>
       </div>
     </header>

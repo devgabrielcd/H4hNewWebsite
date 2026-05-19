@@ -68,8 +68,14 @@ export default async function AboutPage({ params }) {
                     {about.partner.stats.map((stat) => (
                       <div className="stat-row" key={stat.title}>
                         <div className="stat-number">
-                          <span data-purecounter-start="0" data-purecounter-end={stat.number} data-purecounter-duration="0" className="purecounter">{stat.number}</span>
-                          <span>{stat.suffix}</span>
+                          {stat.number ? (
+                            <>
+                              <span data-purecounter-start="0" data-purecounter-end={stat.number} data-purecounter-duration="0" className="purecounter">{stat.number}</span>
+                              <span>{stat.suffix}</span>
+                            </>
+                          ) : (
+                            <i className="bi bi-check-circle"></i>
+                          )}
                         </div>
                         <div className="stat-info">
                           <h5>{stat.title}</h5>

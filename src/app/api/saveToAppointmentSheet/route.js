@@ -5,14 +5,13 @@ export async function POST(req) {
   try {
     const body = await req.json();
     const requiredFields = [
-      'zipCode',
-      'coverageType',
-      'insuranceCoverage',
-      'householdIncome',
       'firstName',
       'lastName',
-      'dob',
       'email',
+      'phone',
+      'appointmentDate',
+      'appointmentTime',
+      'contactMethod',
     ];
 
     const missingFields = requiredFields.filter((field) => !body?.[field]);
@@ -36,6 +35,7 @@ export async function POST(req) {
       hour12: false,
       timeZoneName: 'short',
     }).format(new Date());
+
     const auth = new google.auth.GoogleAuth({
       credentials: {
         client_email: process.env.NEXT_PUBLIC_GOOGLE_CLIENT_EMAIL,
@@ -46,21 +46,19 @@ export async function POST(req) {
 
     const sheets = google.sheets({ version: 'v4', auth });
     const spreadsheetId = '1hCCNo_o8bk7IXva1KZt16FfTQX8m54FbQCxevjjNSt0';
-    const range = 'Sheet2!A:M';
+    const range = 'Appointment!A:J';
+    const fullName = `${body.firstName} ${body.lastName}`.trim();
     const values = [[
-      body.zipCode,
-      body.coverageType,
-      body.insuranceCoverage,
-      body.householdIncome,
-      body.firstName,
-      body.lastName,
-      body.dob,
-      body.address || '',
-      dateTime,
-      body.city || '',
-      body.state || '',
+      fullName,
       body.email,
-      body.phone || '',
+      body.phone,
+      body.appointmentDate,
+      body.appointmentTime,
+      body.method || 'Appointment',
+      body.contactMethod,
+      body.comments || 'N/A',
+      `${body.appointmentDate} ${body.appointmentTime}`,
+      dateTime,
     ]];
 
     await sheets.spreadsheets.values.append({
@@ -73,14 +71,14 @@ export async function POST(req) {
     });
 
     return NextResponse.json({
-      message: 'Data saved to Google Sheets successfully',
+      message: 'Appointment saved to Google Sheets successfully',
     });
   } catch (error) {
     console.error(error);
 
     return NextResponse.json(
       {
-        error: 'Failed to save data to Google Sheets',
+        error: 'Failed to save appointment to Google Sheets',
       },
       { status: 500 }
     );

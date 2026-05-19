@@ -59,8 +59,19 @@ export function getDepartmentDetailsDictionary(locale = defaultLocale) {
   return getDictionary(locale).departmentDetails;
 }
 
-export function getServiceDetailsDictionary(locale = defaultLocale) {
-  return getDictionary(locale).serviceDetails;
+export function getServiceDetailsDictionary(locale = defaultLocale, slug) {
+  const serviceDetails = getDictionary(locale).serviceDetails;
+
+  if (!serviceDetails?.items) {
+    return serviceDetails;
+  }
+
+  return serviceDetails.items[slug] || serviceDetails.items[serviceDetails.defaultSlug];
+}
+
+export function getServiceDetailSlugs(locale = defaultLocale) {
+  const serviceDetails = getDictionary(locale).serviceDetails;
+  return serviceDetails?.items ? Object.keys(serviceDetails.items) : [];
 }
 
 export function getTestimonialsDictionary(locale = defaultLocale) {

@@ -79,9 +79,9 @@ const en = {
         { number: "25K+", label: "Families Covered" },
         { number: "98%", label: "Satisfaction Rate" },
       ],
-      title: "Affordable Health, Life, Dental, Vision, and Medicare Coverage",
+      title: "Affordable Health, Medicare, and Life Insurance for Haitian Families in Florida ",
       description:
-        "We help individuals, families, and seniors compare plans with confidence. From everyday health coverage to life protection and Medicare enrollment, our team makes benefits easier to understand and easier to choose.",
+        "We help Haitian-Floridian families, seniors, and individuals find trusted insurance coverage for health, Medicare, term life, whole life, IUL, dental, vision, and accident protection. Get clear guidance, compare your options, and choose a plan that fits your family’s needs and budget.",
       primaryCta: "Get a Free Quote",
       secondaryCta: "See How We Help",
       quickActions: [
@@ -91,9 +91,9 @@ const en = {
       ],
     },
     about: {
-      heading: "Coverage Guidance Built Around Real Families",
+      heading: "Coverage Guidance Built Around Your Family’s Real Needs",
       description:
-        "H4H Insurance helps clients choose benefits that match their budget, doctors, prescriptions, and long-term goals. We simplify enrollment so you can focus on protecting what matters most.",
+        "At Health4Haitians, we help individuals, families, and seniors in Florida compare affordable health insurance, Medicare plans, life insurance, dental, vision, and accident coverage. Whether you need help with everyday medical benefits, long-term family protection, or first-time Medicare enrollment, our team makes the process easier to understand and easier to trust. ",
       badge: "Trusted Enrollment Support",
       highlightTitle: "Client-First Advice",
       highlightText:
@@ -117,9 +117,9 @@ const en = {
       },
     },
     featuredDepartments: {
-      title: "Featured Coverage Options",
+      title: "Insurance Coverage Options for Haitian Families in Florida",
       description:
-        "Explore the core insurance solutions our team helps clients compare, enroll in, and manage year-round.",
+        "Health4Haitians helps individuals, families, seniors, and business owners compare trusted insurance options from multiple carriers. From ACA Marketplace health insurance and private health plans to IUL life insurance, term life, dental coverage, and final expense protection, our team helps you understand your options clearly before you enroll.",
       featured: {
         category: "Health Insurance",
         title: "ACA, Marketplace, and Private Health Plans",
@@ -186,55 +186,55 @@ const en = {
       ctaButton: "View All Coverage Options",
     },
     featuredServices: {
-      title: "Featured Planning Services",
+      title: "Insurance Coverage Options for Haitian Families in Florida ",
       description:
-        "Beyond plan comparisons, we help clients understand eligibility, enrollment timing, and long-term coverage strategy.",
+        "Health4Haitians helps individuals, families, seniors, and business owners compare trusted insurance options from multiple carriers. From ACA Marketplace health insurance and private health plans to IUL life insurance, term life, dental coverage, and final expense protection, our team helps you understand your options clearly before you enroll. ",
       cards: [
         {
-          title: "Health Plan Matching",
+          title: "ACA & Health Insurance Plans",
           description:
-            "We narrow your options based on doctors, prescriptions, preferred hospitals, and expected out-of-pocket costs.",
+            "We help Florida individuals and families compare ACA Marketplace and private health insurance plans based on monthly premiums, deductibles, doctor networks, prescriptions, and subsidy eligibility.",
         },
         {
-          title: "Medicare Enrollment Help",
+          title: "Term Life & IUL Coverage",
           description:
-            "Our team explains timing windows, plan differences, and prescription coverage so enrollment feels clear and manageable.",
+            "Protect your loved ones with life insurance options designed for income protection, family security, and long-term planning. We help you compare term life and indexed universal life coverage clearly and confidently.",
         },
         {
-          title: "Life Insurance Review",
+          title: "Medicare Guidance & Enrollment Help",
           description:
-            "We help you choose the right coverage amount, term length, and beneficiary structure for your family goals.",
+            "We help seniors understand Medicare Advantage, Supplement, and Part D prescription coverage, including first-time enrollment, plan comparisons, and annual review support.",
         },
         {
-          title: "Family Benefit Bundles",
+          title: "Dental & Vision Coverage",
           description:
-            "Combine medical, dental, and vision guidance into one simple planning conversation for your entire household.",
+            "Compare dental and vision insurance plans that help with checkups, cleanings, fillings, eye exams, glasses, and other everyday care while staying within your monthly budget.",
         },
         {
-          title: "Employer Coverage Support",
+          title: "Final Expense Protection",
           description:
-            "We work with small businesses to evaluate benefit packages that help attract employees and control monthly spend.",
+            "Final expense insurance can help protect your loved ones from funeral and burial costs. We guide families and seniors through simple, respectful coverage options designed for peace of mind.",
         },
         {
-          title: "Renewal & Plan Reviews",
+          title: "Accident Insurance Support",
           description:
-            "Before renewal season, we revisit your current plan and compare updated options to avoid surprises and missed savings.",
+            "Accident insurance can help with unexpected out-of-pocket costs after a covered injury. We help individuals and families compare affordable accident coverage that adds extra financial protection.",
         },
       ],
       learnMore: "Learn More",
     },
     cta: {
-      title: "Simple Insurance Guidance for Every Stage of Life",
+      title: "Insurance Guidance for Haitian Families Across Florida ",
       description:
-        "Whether you need health insurance, life protection, dental, vision, or Medicare help, we guide you from first questions to final enrollment.",
+        "From Miami and Fort Lauderdale to Orlando, Tampa, and Palm Beach, our team helps Haitian families compare affordable health insurance, Medicare plans, life insurance, dental coverage, and final expense protection with clear, respectful support.",
       primary: "Book Consultation",
-      secondary: "Explore Plans",
+      secondary: "Explore Family Coverage Options",
       imageAlt: "Insurance planning support",
       stats: [
-        { number: "25+", label: "Years Experience" },
-        { number: "15K+", label: "Satisfied Clients" },
-        { number: "50+", label: "Licensed Agents" },
-        { number: "2000+", label: "Annual Reviews" },
+        { number: "$11,526+", label: "Avg Annual Healthcare Costs per person" },
+        { number: "2,500,000+", label: "Uninsured Florida Residents" },
+        { number: "$550", label: "Avg ACA Plan Subsidy per Month" },
+        { number: "20 mins", label: "Avg Time to Enroll in a Plan" },
       ],
       services: [
         {
@@ -263,38 +263,38 @@ const en = {
   about: {
     title: "About Us",
     intro:
-      "We help families, individuals, and seniors make informed insurance decisions with honest guidance, practical education, and year-round support.",
+      "Health4Haitians helps Haitian families, individuals, and seniors across Florida make confident insurance decisions with clear guidance, honest education, and year-round support. From ACA health insurance and Medicare plans to life insurance, dental, vision, final expense, and accident coverage, our team makes it easier to compare your options, understand your benefits, and choose coverage that fits your family’s needs and budget.",
     breadcrumb: "About",
-    leadTitle: "Insurance Guidance Rooted in Clarity and Care",
+    leadTitle: "Insurance Guidance Rooted in Clarity, Culture, and Care",
     leadText:
-      "We believe strong coverage starts with understanding your options. Our team turns complex plan details into simple recommendations you can trust.",
+      "Health4Haitians helps Haitian families, individuals, and seniors across Florida understand their insurance options with clear education, respectful guidance, and year-round support. From ACA health insurance and Medicare to life insurance, IUL coverage, dental, vision, final expense, and accident plans, our team makes the process easier to compare, easier to understand, and easier to choose.",
     images: {
-      mainAlt: "Insurance guidance meeting",
-      secondaryAlt1: "Licensed advisor team",
-      secondaryAlt2: "Benefits consultation",
+      mainAlt: "Collaborative consultation in a bright office",
+      secondaryAlt1: "Collaborative discussion in a bright office",
+      secondaryAlt2: "Professional consultation in a bright office",
     },
     partner: {
-      title: "Trusted Coverage Partner",
+      title: "A Trusted Coverage Partner for Florida Families",
       text:
-        "We guide clients through plan comparisons, enrollment windows, renewals, subsidy questions, and benefit coordination with a hands-on approach.",
+        "We guide clients through plan comparisons, enrollment windows, renewals, subsidy questions, doctor networks, prescriptions, and long-term protection planning. Our goal is to help every family feel informed before making an insurance decision.",
       stats: [
         {
-          number: "22000",
+          number: "",
           suffix: "",
-          title: "Policies Reviewed",
-          text: "Helping clients compare better-fit coverage options",
+          title: "Personalized Guidance",
+          text: "We compare options based on budget, doctors, prescriptions, and family needs.",
         },
         {
-          number: "95",
-          suffix: "%",
-          title: "Client Satisfaction",
-          text: "Built on education, transparency, and responsive support",
+          number: "",
+          suffix: "",
+          title: "Year-Round Support",
+          text: "We help with enrollment, renewals, plan questions, and coverage changes.",
         },
         {
-          number: "85",
+          number: "",
           suffix: "",
-          title: "Licensed Advisors",
-          text: "Specialists across health, life, Medicare, and supplemental coverage",
+          title: "English & Haitian Creole Help",
+          text: "Clear support for Haitian families across Florida.",
         },
       ],
     },
@@ -302,30 +302,30 @@ const en = {
       {
         title: "Our Mission",
         text:
-          "To make insurance easier to understand so every client can choose coverage with confidence, not confusion.",
+          "To help underserved Haitian families access affordable, comprehensive insurance so they can live healthier, safer, more secure lives.",
       },
       {
         title: "Our Vision",
         text:
-          "To be the most trusted enrollment and advisory partner for families seeking affordable protection and long-term peace of mind.",
+          "To become a trusted bridge between Haitian communities and clear, affordable coverage at every stage of life.",
       },
       {
         title: "Our Promise",
         text:
-          "Every client will receive honest recommendations, clear explanations, and support before, during, and after enrollment.",
+          "We explain options honestly, respect every family’s needs, and support clients before, during, and after enrollment.",
       },
     ],
     specialties: {
       title: "What We Help With",
       text:
-        "Our advisors support the most common coverage decisions clients face throughout the year.",
+        "Our advisors help Haitian families, individuals, and seniors across Florida compare the most important insurance coverage options for health, life, Medicare, dental, vision, final expense, and accident protection.",
       items: [
         "Health Insurance",
-        "Medicare",
-        "Family Plans",
         "Life Insurance",
+        "Medicare",
         "Dental & Vision",
-        "Supplemental Coverage",
+        "Final Expense",
+        "Accident Insurance",
       ],
     },
     carriers: {
@@ -613,58 +613,58 @@ const en = {
     },
   },
   departments: {
-    title: "Coverage Options",
+    title: "Coverage Options for Haitian Families in Florida",
     intro:
-      "Browse the main insurance categories we help clients compare, understand, and enroll in with personalized support.",
+      "Whether you need ACA health insurance, Medicare guidance, term life, IUL coverage, dental and vision plans, final expense protection, or accident insurance, Health4Haitians helps you compare trusted carrier options and choose coverage that fits your family’s needs, budget, and future goals.",
     breadcrumb: "Coverage Options",
     cards: [
       {
         title: "Health Insurance",
         category: "ACA, Marketplace & Private Plans",
         text:
-          "Compare plan networks, premiums, deductibles, prescription coverage, and subsidy eligibility for individuals and families.",
+          "Compare plan networks, premiums, deductibles, prescription coverage, and subsidy eligibility for individuals and families in Florida. We help Haitian families review ACA Marketplace and private health plan options with personalized support.",
         badges: ["Plan Comparison", "Enrollment Guidance"],
-        imageAlt: "Health insurance options",
+        imageAlt: "Warm family consultation in bright office",
       },
       {
         title: "Medicare",
         category: "Advantage, Supplement & Part D",
         text:
-          "Understand enrollment windows, doctor access, prescription plans, and the difference between Medicare Advantage and Supplements.",
+          "Understand Medicare enrollment windows, doctor access, prescription drug coverage, and the difference between Medicare Advantage and Medicare Supplement plans. We help Florida seniors compare options with clear, respectful guidance.",
         badges: ["Annual Reviews", "Eligibility Support"],
-        imageAlt: "Medicare support",
+        imageAlt: "Consultation in a modern office setting",
       },
       {
         title: "Life Insurance",
-        category: "Term & Permanent Protection",
+        category: "Term, Whole Life & IUL Protection",
         text:
-          "Protect your family's future with term or permanent life insurance based on your goals, dependents, and income needs.",
+          "Protect your family’s future with term life, whole life, and indexed universal life (IUL) coverage based on your goals, dependents, income needs, and long-term financial plans.",
         badges: ["Family Protection", "Income Security"],
-        imageAlt: "Life insurance planning",
+        imageAlt: "Warm family moment in modern living room",
       },
       {
-        title: "Dental",
-        category: "Preventive, Basic & Major Coverage",
+        title: "Dental & Vision",
+        category: "Preventive Care, Exams & Everyday Benefits",
         text:
-          "Find dental plans that work for routine cleanings, restorative care, and broader family benefits without overspending.",
-        badges: ["Family Plans", "Network Savings"],
-        imageAlt: "Dental coverage options",
+          "Compare dental and vision plans that help with checkups, cleanings, fillings, eye exams, glasses, contacts, and everyday care while staying within your monthly budget.",
+        badges: ["Family Benefits", "Everyday Savings"],
+        imageAlt: "Warm consultation in modern clinic setting",
       },
       {
-        title: "Vision",
-        category: "Routine Exams, Frames & Lenses",
+        title: "Final Expense",
+        category: "Burial & End-of-Life Protection",
         text:
-          "Choose vision plans that support annual exams, lenses, contacts, and eyewear allowances that fit your needs.",
-        badges: ["Eye Exams", "Eyewear Benefits"],
-        imageAlt: "Vision coverage options",
+          "Help protect your loved ones from funeral, burial, and other end-of-life costs with simple final expense coverage designed to provide peace of mind for seniors and families.",
+        badges: ["Family Relief", "Peace of Mind"],
+        imageAlt: "Cozy family conversation in natural light",
       },
       {
-        title: "Supplemental Benefits",
-        category: "Accident, Hospital & Critical Illness",
+        title: "Accident Insurance",
+        category: "Extra Protection for Unexpected Injuries",
         text:
-          "Add extra financial protection for the moments when medical bills or lost income could put real pressure on your household.",
-        badges: ["Cash Benefits", "Flexible Add-Ons"],
-        imageAlt: "Supplemental benefits",
+          "Accident insurance helps with covered out-of-pocket costs after unexpected injuries, giving individuals and families extra financial protection when life doesn’t go as planned.",
+        badges: ["Cash Benefits", "Flexible Protection"],
+        imageAlt: "Family care and comfort at home",
       },
     ],
   },
@@ -727,71 +727,422 @@ const en = {
     },
   },
   serviceDetails: {
-    title: "Health Insurance Service Details",
-    intro:
-      "Understand how we help clients compare health insurance options, review benefits, and complete enrollment with clear, practical guidance.",
-    breadcrumb: "Health Insurance Service Details",
-    imageAlt: "Health insurance service consultation",
-    tag: "Coverage Guidance",
-    heroTitle: "Personalized Health Insurance Support",
-    heroTagline:
-      "Clear plan comparisons, enrollment help, and ongoing benefit guidance tailored to your situation",
-    paragraphs: [
-      "We help clients sort through health insurance choices without the overwhelm. Whether you are shopping for an individual plan, helping your family compare benefits, or reviewing coverage before renewal, we make the details easier to understand.",
-      "Our team explains provider networks, prescription coverage, deductibles, premiums, and out-of-pocket costs so you can feel confident that the plan you choose fits both your healthcare needs and your budget.",
-    ],
-    includeTitle: "Our Services Include:",
-    includeItems: [
-      "Side-by-side comparisons of ACA, private, and supplemental plans",
-      "Reviews of provider networks, prescriptions, and expected usage",
-      "Guidance on subsidy eligibility and special enrollment periods",
-      "Medicare plan support and annual enrollment assistance",
-      "Dental, vision, and ancillary benefit recommendations",
-      "Renewal reviews when your doctors, prescriptions, or budget change",
-    ],
-    actions: {
-      primary: "Schedule a Coverage Review",
-      secondary: "View All Services",
-    },
-    cards: [
-      {
-        title: "Plan Comparison Support",
-        text:
-          "We organize plan options in a way that makes premiums, deductibles, and benefits easier to compare.",
-        cta: "Compare Options",
-      },
-      {
-        title: "Enrollment Assistance",
-        text:
-          "Get help with applications, documentation, effective dates, and important enrollment deadlines.",
-        cta: "Start Enrollment",
-      },
-      {
-        title: "Renewal and Benefit Reviews",
-        text:
-          "Before each new plan year, we help you review changes in costs, benefits, carriers, and networks.",
-        cta: "Review Coverage",
-      },
-    ],
-    booking: {
-      title: "Ready to Review Your Coverage?",
-      text:
-        "Our licensed agents are available throughout the week to help you compare plans, answer benefit questions, and guide you through enrollment or renewal decisions.",
-      items: [
-        { label: "Advisory Hours", value: "Mon-Fri: 9:00 AM - 6:00 PM" },
-        { label: "Call an Agent", value: "(786) 397-7167" },
-        {
-          label: "Service Focus",
-          value:
-            "Individual, family, Medicare, dental, vision, and supplemental coverage",
+    defaultSlug: "health-insurance",
+    items: {
+      "health-insurance": {
+        title: "Health Insurance for Haitian Families in Florida",
+        intro:
+          "Compare ACA Marketplace and private health insurance plans with clear guidance on premiums, deductibles, doctor networks, prescription coverage, and subsidy eligibility. Health4Haitians helps individuals and families review options and enroll with confidence.",
+        breadcrumb: "Health Insurance",
+        image: "/assets/img/health/cardiology-3.webp",
+        imageAlt: "Health insurance guidance consultation",
+        tag: "Health Insurance Guidance",
+        heroTitle: "Personalized Health Insurance Support",
+        heroTagline:
+          "Clear plan comparisons, enrollment help, and ongoing benefit guidance tailored to your needs",
+        paragraphs: [
+          "Choosing health insurance can feel overwhelming, especially when you are comparing ACA Marketplace plans, private health insurance options, premiums, deductibles, provider networks, and prescription benefits. Health4Haitians helps individuals and families in Florida understand the details more clearly before enrolling.",
+          "Whether you are shopping for coverage for yourself, your spouse, your children, or your household, we help you compare plans based on your budget, doctors, medications, and expected out-of-pocket costs so you can choose coverage with greater confidence.",
+        ],
+        includeTitle: "Our Services Include:",
+        includeItems: [
+          "Side-by-side comparisons of ACA Marketplace and private health insurance plans",
+          "Reviews of premiums, deductibles, copays, and expected out-of-pocket costs",
+          "Guidance on provider networks, doctors, and prescription coverage",
+          "Help understanding subsidy eligibility and enrollment timelines",
+          "Support during applications, special enrollment periods, and renewals",
+          "Benefit reviews when your budget, prescriptions, or healthcare needs change",
+        ],
+        actions: {
+          primary: "Schedule a Coverage Review",
+          secondary: "View All Coverage Options",
         },
-      ],
-    },
-    appointmentCard: {
-      title: "Book Your Review",
-      text: "Simple scheduling for health insurance guidance",
-      button: "Book Appointment",
-      altLabel: "Or call us at",
+        cards: [
+          {
+            title: "Plan Comparison Support",
+            text:
+              "We organize plan options in a simple way so you can compare premiums, deductibles, benefits, provider networks, and prescription coverage more easily.",
+            cta: "Compare Options",
+          },
+          {
+            title: "Enrollment Assistance",
+            text:
+              "Get help with applications, documents, subsidy questions, effective dates, and important enrollment deadlines.",
+            cta: "Start Enrollment",
+          },
+          {
+            title: "Renewal and Benefit Reviews",
+            text:
+              "Before each new plan year, we help you review changes in costs, benefits, doctors, formularies, and carrier options.",
+            cta: "Review Coverage",
+          },
+        ],
+        booking: {
+          title: "Ready to Review Your Coverage?",
+          text:
+            "Our licensed advisors are available to help you compare health insurance plans, understand your benefits, and choose coverage that fits your family’s needs and monthly budget.",
+          items: [
+            { label: "Advisory Hours", value: "Mon-Fri | 9:00 AM - 6:00 PM" },
+            { label: "Call an Advisor", value: "(786) 397-7167" },
+            {
+              label: "Service Focus",
+              value:
+                "ACA Marketplace plans, private health insurance, subsidy guidance, and annual coverage reviews",
+            },
+          ],
+        },
+        appointmentCard: {
+          title: "Book Your Review",
+          text: "Schedule a free health insurance consultation with a trusted advisor.",
+          button: "Book Appointment",
+          altLabel: "Or call us at",
+        },
+      },
+      "life-insurance": {
+        title: "Life Insurance for Haitian Families in Florida",
+        intro:
+          "Compare term life, whole life, and indexed universal life insurance options designed to help protect your family, income, mortgage, children, and long-term financial goals. Health4Haitians helps families review coverage with clear, respectful guidance.",
+        breadcrumb: "Life Insurance",
+        image: "/assets/img/health/orthopedics-4.webp",
+        imageAlt: "Life insurance guidance consultation",
+        tag: "Life Insurance Guidance",
+        heroTitle: "Personalized Life Insurance Support",
+        heroTagline:
+          "Term life, whole life, and IUL coverage guidance tailored to your family’s future",
+        paragraphs: [
+          "Life insurance is one of the most important ways to help protect the people who depend on you. Whether you are a parent, spouse, homeowner, business owner, or caregiver, the right coverage can help your loved ones manage expenses if the unexpected happens.",
+          "Health4Haitians helps Haitian families across Florida compare term life insurance, whole life insurance, and indexed universal life insurance options based on income needs, dependents, mortgage protection, final expenses, long-term goals, and monthly budget. Our goal is to make life insurance easier to understand before you apply.",
+        ],
+        includeTitle: "Our Services Include:",
+        includeItems: [
+          "Term life insurance comparisons for affordable family protection",
+          "Whole life insurance options for long-term coverage and stability",
+          "Indexed universal life insurance guidance for flexible protection and cash-value potential",
+          "Coverage reviews based on income, dependents, mortgage, and family needs",
+          "Beneficiary planning support to help protect the people you love",
+          "Policy reviews when your family, budget, or long-term goals change",
+        ],
+        actions: {
+          primary: "Schedule a Life Insurance Review",
+          secondary: "View All Coverage Options",
+        },
+        cards: [
+          {
+            title: "Term Life Protection",
+            text:
+              "Compare affordable term life insurance options designed to help protect your family’s income, mortgage, children, and major financial responsibilities.",
+            cta: "Compare Term Options",
+          },
+          {
+            title: "Whole Life & IUL Guidance",
+            text:
+              "Review permanent life insurance options, including whole life and indexed universal life, that may offer long-term coverage and cash-value potential depending on the policy.",
+            cta: "Explore Permanent Coverage",
+          },
+          {
+            title: "Family Protection Review",
+            text:
+              "We help you estimate how much coverage your family may need based on income, debts, children, housing costs, final expenses, and future goals.",
+            cta: "Review My Needs",
+          },
+        ],
+        booking: {
+          title: "Ready to Protect Your Family’s Future?",
+          text:
+            "Our licensed advisors can help you compare life insurance options, understand policy types, review coverage amounts, and choose protection that fits your family’s needs and monthly budget.",
+          items: [
+            { label: "Advisory Hours", value: "Mon-Fri | 9:00 AM - 6:00 PM" },
+            { label: "Call an Advisor", value: "(786) 397-7167" },
+            {
+              label: "Service Focus",
+              value:
+                "Term life, whole life, IUL coverage, family protection, income replacement, and policy reviews",
+            },
+          ],
+        },
+        appointmentCard: {
+          title: "Book Your Review",
+          text: "Schedule a free life insurance consultation with a trusted advisor.",
+          button: "Book Appointment",
+          altLabel: "Or call us at",
+        },
+      },
+      medicare: {
+        title: "Medicare Guidance for Haitian Seniors in Florida",
+        intro:
+          "Compare Medicare Advantage, Medicare Supplement, and Part D prescription drug plan options with clear guidance on enrollment windows, doctor access, prescriptions, benefits, and annual plan reviews.",
+        breadcrumb: "Medicare Guidance",
+        image: "/assets/img/health/neurology-3.webp",
+        imageAlt: "Medicare guidance consultation",
+        tag: "Medicare Guidance",
+        heroTitle: "Personalized Medicare Enrollment Support",
+        heroTagline:
+          "Clear Medicare plan comparisons, prescription reviews, and enrollment guidance tailored to your needs",
+        paragraphs: [
+          "Medicare can feel confusing when you are comparing Medicare Advantage plans, Medicare Supplement options, Part D prescription drug coverage, provider networks, premiums, copays, and enrollment deadlines. Health4Haitians helps Haitian seniors and families across Florida understand the details before choosing a plan.",
+          "Whether you are enrolling for the first time, reviewing your current coverage, helping a parent, or comparing plans during the annual enrollment period, our advisors help you look at your doctors, medications, budget, benefits, and long-term healthcare needs so you can make a more confident Medicare decision.",
+        ],
+        includeTitle: "Our Services Include:",
+        includeItems: [
+          "Medicare Advantage plan comparisons based on doctors, benefits, prescriptions, and costs",
+          "Medicare Supplement guidance for clients who want help understanding coverage differences",
+          "Part D prescription drug plan reviews based on medications and pharmacy access",
+          "Support understanding Medicare enrollment windows and important deadlines",
+          "Annual plan reviews when benefits, doctors, prescriptions, or costs change",
+          "Clear guidance for seniors, caregivers, and family members helping loved ones choose coverage",
+        ],
+        actions: {
+          primary: "Schedule a Medicare Review",
+          secondary: "View All Coverage Options",
+        },
+        cards: [
+          {
+            title: "Medicare Plan Comparison",
+            text:
+              "Compare Medicare Advantage, Medicare Supplement, and Part D options based on doctors, prescriptions, benefits, monthly costs, and plan availability in your area.",
+            cta: "Compare Medicare Options",
+          },
+          {
+            title: "Enrollment Assistance",
+            text:
+              "Get help understanding enrollment timelines, plan documents, eligibility questions, effective dates, and steps to complete your Medicare enrollment.",
+            cta: "Start Medicare Help",
+          },
+          {
+            title: "Annual Medicare Reviews",
+            text:
+              "Each year, we help you review plan changes, prescription costs, doctor networks, benefits, and carrier options before renewing or switching coverage.",
+            cta: "Review My Medicare Plan",
+          },
+        ],
+        booking: {
+          title: "Ready to Review Your Medicare Options?",
+          text:
+            "Our licensed advisors can help you compare Medicare plans, understand your benefits, review prescription coverage, and choose an option that fits your doctors, medications, budget, and healthcare needs.",
+          items: [
+            { label: "Advisory Hours", value: "Mon-Fri | 9:00 AM - 6:00 PM" },
+            { label: "Call an Advisor", value: "(786) 397-7167" },
+            {
+              label: "Service Focus",
+              value:
+                "Medicare Advantage, Medicare Supplement, Part D prescription plans, enrollment help, and annual reviews",
+            },
+          ],
+        },
+        appointmentCard: {
+          title: "Book Your Medicare Review",
+          text: "Schedule a free Medicare consultation with a trusted advisor.",
+          button: "Book Appointment",
+          altLabel: "Or call us at",
+        },
+      },
+      "dental-vision": {
+        title: "Dental & Vision Insurance for Haitian Families in Florida",
+        intro:
+          "Compare dental and vision plans that help with cleanings, exams, fillings, eye exams, glasses, contacts, and everyday preventive care for individuals, families, and seniors.",
+        breadcrumb: "Dental & Vision",
+        image: "/assets/img/health/pediatrics-2.webp",
+        imageAlt: "Dental and vision coverage consultation",
+        tag: "Dental & Vision Guidance",
+        heroTitle: "Personalized Dental & Vision Coverage Support",
+        heroTagline:
+          "Affordable dental and vision plan guidance tailored to your family’s everyday care needs",
+        paragraphs: [
+          "Dental and vision coverage can help make routine care more affordable for your family. From dental cleanings and exams to eye exams, glasses, contacts, fillings, crowns, and other common needs, Health4Haitians helps individuals, families, and seniors in Florida compare coverage options clearly before enrolling.",
+          "Whether you need coverage for yourself, your children, your spouse, or an older family member, our advisors help you review plan benefits, provider networks, waiting periods, monthly premiums, and out-of-pocket costs so you can choose dental and vision coverage with greater confidence.",
+        ],
+        includeTitle: "Our Services Include:",
+        includeItems: [
+          "Dental plan comparisons for preventive, basic, and major services",
+          "Vision plan guidance for eye exams, glasses, contacts, and eyewear allowances",
+          "Provider network reviews for dentists, eye doctors, and participating locations",
+          "Help understanding premiums, waiting periods, copays, and annual maximums",
+          "Coverage options for individuals, families, children, and seniors",
+          "Plan reviews when your family’s dental, vision, or budget needs change",
+        ],
+        actions: {
+          primary: "Schedule a Dental & Vision Review",
+          secondary: "View All Coverage Options",
+        },
+        cards: [
+          {
+            title: "Dental Plan Support",
+            text:
+              "Compare dental plans that may help with cleanings, exams, X-rays, fillings, crowns, root canals, dentures, and other common dental care needs.",
+            cta: "Compare Dental Options",
+          },
+          {
+            title: "Vision Benefit Guidance",
+            text:
+              "Review vision plans that may help with routine eye exams, prescription glasses, contacts, lenses, frames, and eyewear allowances.",
+            cta: "Explore Vision Benefits",
+          },
+          {
+            title: "Family Coverage Review",
+            text:
+              "We help you compare dental and vision options based on your family size, preferred providers, expected care needs, and monthly budget.",
+            cta: "Review Family Options",
+          },
+        ],
+        booking: {
+          title: "Ready to Compare Dental & Vision Coverage?",
+          text:
+            "Our licensed advisors can help you review dental and vision plan options, understand benefits, compare provider access, and choose coverage that supports your family’s everyday care needs.",
+          items: [
+            { label: "Advisory Hours", value: "Mon-Fri | 9:00 AM - 6:00 PM" },
+            { label: "Call an Advisor", value: "(786) 397-7167" },
+            {
+              label: "Service Focus",
+              value:
+                "Dental insurance, vision insurance, preventive care, family coverage, eyewear benefits, and provider network reviews",
+            },
+          ],
+        },
+        appointmentCard: {
+          title: "Book Your Review",
+          text: "Schedule a free dental and vision coverage consultation with a trusted advisor.",
+          button: "Book Appointment",
+          altLabel: "Or call us at",
+        },
+      },
+      "final-expense": {
+        title: "Final Expense Insurance for Haitian Families in Florida",
+        intro:
+          "Compare final expense insurance options designed to help loved ones with funeral costs, burial expenses, and other end-of-life financial needs with simple, respectful guidance.",
+        breadcrumb: "Final Expense",
+        image: "/assets/img/health/laboratory-3.webp",
+        imageAlt: "Final expense insurance consultation",
+        tag: "Final Expense Guidance",
+        heroTitle: "Personalized Final Expense Support",
+        heroTagline:
+          "Simple coverage guidance designed to help protect your loved ones from end-of-life costs",
+        paragraphs: [
+          "Final expense insurance can help reduce the financial stress your family may face when dealing with funeral, burial, and other end-of-life expenses. For many families, this type of coverage offers peace of mind by helping loved ones prepare for costs that can be difficult to manage unexpectedly.",
+          "Health4Haitians helps Haitian families and seniors across Florida compare final expense coverage options based on age, budget, coverage needs, beneficiaries, and long-term family protection goals. Our advisors explain the options clearly so you can make a thoughtful decision with confidence and dignity.",
+        ],
+        includeTitle: "Our Services Include:",
+        includeItems: [
+          "Final expense insurance comparisons for seniors and families",
+          "Coverage guidance for funeral, burial, and end-of-life costs",
+          "Help reviewing monthly premiums, benefit amounts, and policy options",
+          "Beneficiary planning support to help protect the people you love",
+          "Simple explanations of application steps and carrier requirements",
+          "Policy reviews when your family, budget, or protection needs change",
+        ],
+        actions: {
+          primary: "Schedule a Final Expense Review",
+          secondary: "View All Coverage Options",
+        },
+        cards: [
+          {
+            title: "Funeral & Burial Protection",
+            text:
+              "Compare coverage options designed to help loved ones manage funeral, burial, and other final expenses with less financial pressure.",
+            cta: "Compare Coverage",
+          },
+          {
+            title: "Simple Application Guidance",
+            text:
+              "Get help understanding application steps, coverage amounts, monthly premiums, beneficiary choices, and carrier requirements.",
+            cta: "Start Guidance",
+          },
+          {
+            title: "Family Peace of Mind",
+            text:
+              "We help you review final expense options that fit your budget and support your goal of leaving your family better prepared.",
+            cta: "Review My Options",
+          },
+        ],
+        booking: {
+          title: "Ready to Plan With Peace of Mind?",
+          text:
+            "Our licensed advisors can help you compare final expense insurance options, understand benefit amounts, review monthly premiums, and choose coverage designed to help protect your loved ones from unexpected end-of-life costs.",
+          items: [
+            { label: "Advisory Hours", value: "Mon-Fri | 9:00 AM - 6:00 PM" },
+            { label: "Call an Advisor", value: "(786) 397-7167" },
+            {
+              label: "Service Focus",
+              value:
+                "Final expense insurance, funeral cost protection, burial coverage, beneficiary planning, and family peace of mind",
+            },
+          ],
+        },
+        appointmentCard: {
+          title: "Book Your Review",
+          text: "Schedule a free final expense consultation with a trusted advisor.",
+          button: "Book Appointment",
+          altLabel: "Or call us at",
+        },
+      },
+      "accident-insurance": {
+        title: "Accident Insurance for Haitian Families in Florida",
+        intro:
+          "Compare accident insurance options designed to provide extra financial protection after covered injuries, helping individuals and families manage unexpected out-of-pocket costs.",
+        breadcrumb: "Accident Insurance",
+        image: "/assets/img/health/emergency-4.webp",
+        imageAlt: "Accident insurance consultation",
+        tag: "Accident Coverage Guidance",
+        heroTitle: "Personalized Accident Insurance Support",
+        heroTagline:
+          "Extra protection for unexpected injuries, medical costs, and everyday financial pressure",
+        paragraphs: [
+          "Accidents can happen at home, at work, on the road, or during everyday activities. Even with health insurance, a covered injury may still bring deductibles, copays, emergency care costs, follow-up visits, transportation needs, or time away from work. Accident insurance can help provide extra financial support when life does not go as planned.",
+          "Health4Haitians helps Haitian families, individuals, and workers across Florida compare accident insurance options based on budget, family needs, benefit amounts, coverage triggers, and how the plan may work alongside existing health insurance. Our advisors explain the details clearly so you can choose added protection with confidence.",
+        ],
+        includeTitle: "Our Services Include:",
+        includeItems: [
+          "Accident insurance comparisons for individuals, families, and workers",
+          "Coverage guidance for covered injuries, emergency care, and follow-up treatment",
+          "Help reviewing benefit amounts, monthly premiums, and plan features",
+          "Support understanding how accident coverage may work with health insurance",
+          "Plan options for families who want extra financial protection",
+          "Policy reviews when your budget, job, family, or protection needs change",
+        ],
+        actions: {
+          primary: "Schedule an Accident Coverage Review",
+          secondary: "View All Coverage Options",
+        },
+        cards: [
+          {
+            title: "Unexpected Injury Protection",
+            text:
+              "Compare accident insurance options that may help after covered injuries from everyday accidents, falls, sports, work, or travel-related situations.",
+            cta: "Compare Accident Plans",
+          },
+          {
+            title: "Out-of-Pocket Cost Support",
+            text:
+              "Review plans that may help with costs related to emergency care, deductibles, copays, follow-up visits, transportation, or recovery needs.",
+            cta: "Review Benefits",
+          },
+          {
+            title: "Family Financial Backup",
+            text:
+              "We help you compare coverage that can add another layer of financial protection for your household when an accident creates unexpected expenses.",
+            cta: "Protect My Family",
+          },
+        ],
+        booking: {
+          title: "Ready to Add Extra Protection?",
+          text:
+            "Our licensed advisors can help you compare accident insurance options, understand covered benefits, review monthly premiums, and choose protection that supports your family when unexpected injuries create financial pressure.",
+          items: [
+            { label: "Advisory Hours", value: "Mon-Fri | 9:00 AM - 6:00 PM" },
+            { label: "Call an Advisor", value: "(786) 397-7167" },
+            {
+              label: "Service Focus",
+              value:
+                "Accident insurance, covered injury benefits, out-of-pocket cost support, family protection, and policy reviews",
+            },
+          ],
+        },
+        appointmentCard: {
+          title: "Book Your Review",
+          text: "Schedule a free accident insurance consultation with a trusted advisor.",
+          button: "Book Appointment",
+          altLabel: "Or call us at",
+        },
+      },
     },
   },
   testimonials: {

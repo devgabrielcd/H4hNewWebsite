@@ -18,6 +18,15 @@ const cardIcons = [
   "fas fa-file",
 ];
 
+const serviceSlugs = [
+  "health-insurance",
+  "life-insurance",
+  "medicare",
+  "dental-vision",
+  "final-expense",
+  "accident-insurance",
+];
+
 export default async function ServicesPage({ params }) {
   const { lang = "en" } = await params;
   const services = getServicesDictionary(lang);
@@ -70,11 +79,11 @@ export default async function ServicesPage({ params }) {
                     </div>
                     <div className="service-footer">
                       <a
-                        href={index === 3 ? localizePath("/contact", lang) : localizePath("/service-details", lang)}
-                        className={`service-btn${index === 3 ? " emergency-btn" : ""}`}
+                        href={localizePath(`/service-details/${serviceSlugs[index]}`, lang)}
+                        className="service-btn"
                       >
                         {card.cta}
-                        <i className={index === 3 ? "fas fa-phone" : "fas fa-arrow-right"}></i>
+                        <i className="fas fa-arrow-right"></i>
                       </a>
                     </div>
                   </div>

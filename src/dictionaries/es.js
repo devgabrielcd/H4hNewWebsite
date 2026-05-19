@@ -81,9 +81,9 @@ const es = {
         { number: "25K+", label: "Familias Cubiertas" },
         { number: "98%", label: "Nivel de Satisfaccion" },
       ],
-      title: "Cobertura accesible de salud, vida, dental, vision y Medicare",
+      title: "Seguro medico, Medicare y seguro de vida accesibles para familias haitianas en Florida",
       description:
-        "Ayudamos a individuos, familias y adultos mayores a comparar planes con confianza. Desde cobertura medica diaria hasta proteccion de vida e inscripcion en Medicare, nuestro equipo hace que los beneficios sean mas faciles de entender y elegir.",
+        "Ayudamos a familias haitiano-floridianas, adultos mayores y personas a encontrar cobertura de seguro confiable para salud, Medicare, vida a termino, vida entera, IUL, dental, vision y proteccion contra accidentes. Recibe orientacion clara, compara tus opciones y elige un plan que se ajuste a las necesidades y presupuesto de tu familia.",
       primaryCta: "Obtener Cotizacion Gratis",
       secondaryCta: "Mira Como Ayudamos",
       quickActions: [
@@ -93,9 +93,9 @@ const es = {
       ],
     },
     about: {
-      heading: "Orientacion de cobertura para familias reales",
+      heading: "Orientacion de cobertura creada alrededor de las necesidades reales de tu familia",
       description:
-        "H4H Insurance ayuda a los clientes a elegir beneficios que se ajustan a su presupuesto, medicos, recetas y metas a largo plazo. Simplificamos la inscripcion para que puedas enfocarte en proteger lo que mas importa.",
+        "En Health4Haitians, ayudamos a personas, familias y adultos mayores en Florida a comparar seguro medico accesible, planes de Medicare, seguro de vida, dental, vision y cobertura contra accidentes. Ya sea que necesites ayuda con beneficios medicos diarios, proteccion familiar a largo plazo o inscripcion en Medicare por primera vez, nuestro equipo hace que el proceso sea mas facil de entender y mas facil de confiar.",
       badge: "Apoyo confiable de inscripcion",
       highlightTitle: "Asesoria centrada en el cliente",
       highlightText:
@@ -119,9 +119,9 @@ const es = {
       },
     },
     featuredDepartments: {
-      title: "Opciones destacadas de cobertura",
+      title: "Opciones de cobertura de seguro para familias haitianas en Florida",
       description:
-        "Explora las soluciones principales de seguros que nuestro equipo ayuda a comparar, contratar y administrar durante todo el ano.",
+        "Health4Haitians ayuda a personas, familias, adultos mayores y duenos de negocios a comparar opciones de seguro confiables de multiples companias. Desde seguro medico del ACA Marketplace y planes privados de salud hasta seguro de vida IUL, vida temporal, cobertura dental y proteccion de gastos finales, nuestro equipo te ayuda a entender tus opciones claramente antes de inscribirte.",
       featured: {
         category: "Seguro de Salud",
         title: "Planes ACA, Marketplace y privados",
@@ -188,55 +188,55 @@ const es = {
       ctaButton: "Ver Todas las Opciones de Cobertura",
     },
     featuredServices: {
-      title: "Servicios destacados de planificacion",
+      title: "Opciones de cobertura de seguro para familias haitianas en Florida",
       description:
-        "Mas alla de comparar planes, ayudamos a los clientes a entender elegibilidad, fechas de inscripcion y estrategia de cobertura a largo plazo.",
+        "Health4Haitians ayuda a personas, familias, adultos mayores y duenos de negocios a comparar opciones de seguro confiables de multiples companias. Desde seguro medico del ACA Marketplace y planes privados de salud hasta seguro de vida IUL, vida temporal, cobertura dental y proteccion de gastos finales, nuestro equipo te ayuda a entender tus opciones claramente antes de inscribirte.",
       cards: [
         {
-          title: "Emparejamiento de plan de salud",
+          title: "Planes ACA y seguro medico",
           description:
-            "Reducimos tus opciones segun medicos, recetas, hospitales preferidos y costos esperados de bolsillo.",
+            "Ayudamos a personas y familias en Florida a comparar planes de seguro medico del ACA Marketplace y planes privados segun primas mensuales, deducibles, redes de medicos, recetas y elegibilidad para subsidios.",
         },
         {
-          title: "Ayuda con inscripcion en Medicare",
+          title: "Cobertura de vida temporal e IUL",
           description:
-            "Nuestro equipo explica ventanas de tiempo, diferencias entre planes y cobertura de recetas para que la inscripcion sea clara y manejable.",
+            "Protege a tus seres queridos con opciones de seguro de vida disenadas para proteccion de ingresos, seguridad familiar y planificacion a largo plazo. Te ayudamos a comparar vida temporal y vida universal indexada con claridad y confianza.",
         },
         {
-          title: "Revision de seguro de vida",
+          title: "Orientacion e inscripcion en Medicare",
           description:
-            "Te ayudamos a elegir la cantidad adecuada de cobertura, duracion y estructura de beneficiarios para tus metas familiares.",
+            "Ayudamos a los adultos mayores a entender Medicare Advantage, Supplement y cobertura de recetas Parte D, incluyendo primera inscripcion, comparacion de planes y apoyo en revisiones anuales.",
         },
         {
-          title: "Paquetes de beneficios familiares",
+          title: "Cobertura dental y de vision",
           description:
-            "Combina orientacion medica, dental y de vision en una sola conversacion de planificacion para todo tu hogar.",
+            "Compara planes dentales y de vision que ayudan con chequeos, limpiezas, empastes, examenes de la vista, lentes y otros cuidados diarios mientras te mantienes dentro de tu presupuesto mensual.",
         },
         {
-          title: "Apoyo para cobertura de empleadores",
+          title: "Proteccion de gastos finales",
           description:
-            "Trabajamos con pequenas empresas para evaluar paquetes de beneficios que ayuden a atraer empleados y controlar el gasto mensual.",
+            "El seguro de gastos finales puede ayudar a proteger a tus seres queridos de costos funerarios y de entierro. Guiamos a familias y adultos mayores por opciones simples y respetuosas disenadas para dar tranquilidad.",
         },
         {
-          title: "Renovaciones y revisiones de plan",
+          title: "Apoyo con seguro de accidentes",
           description:
-            "Antes de la temporada de renovacion, revisamos tu plan actual y comparamos opciones actualizadas para evitar sorpresas y ahorros perdidos.",
+            "El seguro de accidentes puede ayudar con costos inesperados de bolsillo despues de una lesion cubierta. Ayudamos a personas y familias a comparar cobertura de accidentes accesible que agrega proteccion financiera extra.",
         },
       ],
       learnMore: "Saber Mas",
     },
     cta: {
-      title: "Orientacion simple de seguros para cada etapa de la vida",
+      title: "Orientacion de seguros para familias haitianas en toda Florida",
       description:
-        "Ya sea que necesites seguro de salud, proteccion de vida, dental, vision o ayuda con Medicare, te guiamos desde las primeras preguntas hasta la inscripcion final.",
+        "Desde Miami y Fort Lauderdale hasta Orlando, Tampa y Palm Beach, nuestro equipo ayuda a las familias haitianas a comparar seguro medico accesible, planes de Medicare, seguro de vida, cobertura dental y proteccion de gastos finales con apoyo claro y respetuoso.",
       primary: "Reservar Consulta",
-      secondary: "Explorar Planes",
+      secondary: "Explorar opciones de cobertura familiar",
       imageAlt: "Apoyo para planificacion de seguros",
       stats: [
-        { number: "25+", label: "Anos de Experiencia" },
-        { number: "15K+", label: "Clientes Satisfechos" },
-        { number: "50+", label: "Agentes Licenciados" },
-        { number: "2000+", label: "Revisiones Anuales" },
+        { number: "$11,526+", label: "Costo anual promedio de atencion medica por persona" },
+        { number: "2,500,000+", label: "Residentes de Florida sin seguro" },
+        { number: "$550", label: "Subsidio promedio mensual de plan ACA" },
+        { number: "20 mins", label: "Tiempo promedio para inscribirse en un plan" },
       ],
       services: [
         {
@@ -265,38 +265,38 @@ const es = {
   about: {
     title: "Sobre Nosotros",
     intro:
-      "Ayudamos a familias, individuos y adultos mayores a tomar decisiones informadas sobre seguros con orientacion honesta, educacion practica y apoyo durante todo el ano.",
+      "Health4Haitians ayuda a familias haitianas, personas y adultos mayores en toda Florida a tomar decisiones de seguro con confianza mediante orientacion clara, educacion honesta y apoyo durante todo el ano. Desde seguro medico ACA y planes de Medicare hasta seguro de vida, dental, vision, gastos finales y cobertura de accidentes, nuestro equipo facilita comparar tus opciones, entender tus beneficios y elegir una cobertura que se ajuste a las necesidades y presupuesto de tu familia.",
     breadcrumb: "Sobre Nosotros",
-    leadTitle: "Orientacion de seguros basada en claridad y cuidado",
+    leadTitle: "Orientacion de seguros basada en claridad, cultura y cuidado",
     leadText:
-      "Creemos que una buena cobertura empieza por entender tus opciones. Nuestro equipo convierte detalles complejos en recomendaciones simples y confiables.",
+      "Health4Haitians ayuda a familias haitianas, personas y adultos mayores en toda Florida a entender sus opciones de seguro con educacion clara, orientacion respetuosa y apoyo durante todo el ano. Desde seguro medico ACA y Medicare hasta seguro de vida, cobertura IUL, dental, vision, gastos finales y planes de accidentes, nuestro equipo hace que el proceso sea mas facil de comparar, mas facil de entender y mas facil de elegir.",
     images: {
-      mainAlt: "Reunion de orientacion sobre seguros",
-      secondaryAlt1: "Equipo de asesores licenciados",
-      secondaryAlt2: "Consulta de beneficios",
+      mainAlt: "Consulta colaborativa en una oficina luminosa",
+      secondaryAlt1: "Conversacion colaborativa en una oficina luminosa",
+      secondaryAlt2: "Consulta profesional en una oficina luminosa",
     },
     partner: {
-      title: "Aliado confiable en cobertura",
+      title: "Un aliado confiable en cobertura para familias de Florida",
       text:
-        "Guiamos a los clientes en comparacion de planes, periodos de inscripcion, renovaciones, subsidios y coordinacion de beneficios con un enfoque practico.",
+        "Guiamos a los clientes en comparaciones de planes, periodos de inscripcion, renovaciones, preguntas sobre subsidios, redes de medicos, recetas y planificacion de proteccion a largo plazo. Nuestro objetivo es ayudar a cada familia a sentirse informada antes de tomar una decision de seguro.",
       stats: [
         {
-          number: "22000",
+          number: "",
           suffix: "",
-          title: "Polizas Revisadas",
-          text: "Ayudando a los clientes a comparar mejores opciones de cobertura",
+          title: "Orientacion personalizada",
+          text: "Comparamos opciones segun presupuesto, medicos, recetas y necesidades familiares.",
         },
         {
-          number: "95",
-          suffix: "%",
-          title: "Satisfaccion del Cliente",
-          text: "Basada en educacion, transparencia y apoyo oportuno",
+          number: "",
+          suffix: "",
+          title: "Apoyo durante todo el ano",
+          text: "Ayudamos con inscripcion, renovaciones, preguntas sobre planes y cambios de cobertura.",
         },
         {
-          number: "85",
+          number: "",
           suffix: "",
-          title: "Asesores Licenciados",
-          text: "Especialistas en salud, vida, Medicare y coberturas suplementarias",
+          title: "Ayuda en ingles y criollo haitiano",
+          text: "Apoyo claro para familias haitianas en toda Florida.",
         },
       ],
     },
@@ -304,30 +304,30 @@ const es = {
       {
         title: "Nuestra Mision",
         text:
-          "Hacer que los seguros sean mas faciles de entender para que cada cliente pueda elegir cobertura con confianza y sin confusion.",
+          "Ayudar a familias haitianas desatendidas a acceder a seguros asequibles e integrales para que puedan vivir vidas mas saludables, seguras y protegidas.",
       },
       {
         title: "Nuestra Vision",
         text:
-          "Ser el aliado mas confiable en inscripcion y asesoria para familias que buscan proteccion accesible y tranquilidad a largo plazo.",
+          "Convertirnos en un puente confiable entre las comunidades haitianas y una cobertura clara y asequible en cada etapa de la vida.",
       },
       {
         title: "Nuestra Promesa",
         text:
-          "Cada cliente recibira recomendaciones honestas, explicaciones claras y apoyo antes, durante y despues de la inscripcion.",
+          "Explicamos las opciones con honestidad, respetamos las necesidades de cada familia y apoyamos a los clientes antes, durante y despues de la inscripcion.",
       },
     ],
     specialties: {
-      title: "En Que Ayudamos",
+      title: "Con Que Ayudamos",
       text:
-        "Nuestros asesores apoyan las decisiones de cobertura mas comunes que enfrentan los clientes durante el ano.",
+        "Nuestros asesores ayudan a familias haitianas, personas y adultos mayores en toda Florida a comparar las opciones de cobertura de seguro mas importantes para salud, vida, Medicare, dental, vision, gastos finales y proteccion contra accidentes.",
       items: [
         "Seguro de Salud",
-        "Medicare",
-        "Planes Familiares",
         "Seguro de Vida",
+        "Medicare",
         "Dental y Vision",
-        "Cobertura Suplementaria",
+        "Gastos Finales",
+        "Seguro de Accidentes",
       ],
     },
     carriers: {
@@ -615,58 +615,58 @@ const es = {
     },
   },
   departments: {
-    title: "Opciones de Cobertura",
+    title: "Opciones de cobertura para familias haitianas en Florida",
     intro:
-      "Explora las principales categorias de seguros que ayudamos a los clientes a comparar, entender e inscribirse con apoyo personalizado.",
+      "Ya sea que necesites seguro medico ACA, orientacion de Medicare, vida temporal, cobertura IUL, planes dentales y de vision, proteccion de gastos finales o seguro de accidentes, Health4Haitians te ayuda a comparar opciones confiables de aseguradoras y elegir cobertura que se ajuste a las necesidades, presupuesto y metas futuras de tu familia.",
     breadcrumb: "Opciones de Cobertura",
     cards: [
       {
         title: "Seguro de Salud",
         category: "ACA, Marketplace y Planes Privados",
         text:
-          "Compara redes, primas, deducibles, cobertura de recetas y elegibilidad para subsidios para individuos y familias.",
+          "Compara redes de planes, primas, deducibles, cobertura de recetas y elegibilidad para subsidios para personas y familias en Florida. Ayudamos a familias haitianas a revisar opciones del ACA Marketplace y planes privados de salud con apoyo personalizado.",
         badges: ["Comparacion de Planes", "Guia de Inscripcion"],
-        imageAlt: "Opciones de seguro de salud",
+        imageAlt: "Consulta familiar calida en una oficina luminosa",
       },
       {
         title: "Medicare",
         category: "Advantage, Suplemento y Parte D",
         text:
-          "Entiende ventanas de inscripcion, acceso a doctores, planes de recetas y la diferencia entre Medicare Advantage y los Suplementos.",
+          "Entiende periodos de inscripcion de Medicare, acceso a medicos, cobertura de medicamentos recetados y la diferencia entre Medicare Advantage y planes Medicare Supplement. Ayudamos a adultos mayores en Florida a comparar opciones con orientacion clara y respetuosa.",
         badges: ["Revisiones Anuales", "Apoyo de Elegibilidad"],
-        imageAlt: "Apoyo con Medicare",
+        imageAlt: "Consulta en una oficina moderna",
       },
       {
         title: "Seguro de Vida",
-        category: "Proteccion Temporal y Permanente",
+        category: "Proteccion temporal, vida entera e IUL",
         text:
-          "Protege el futuro de tu familia con seguro de vida temporal o permanente segun tus metas, dependientes e ingresos.",
+          "Protege el futuro de tu familia con cobertura de vida temporal, vida entera y vida universal indexada (IUL) segun tus metas, dependientes, necesidades de ingresos y planes financieros a largo plazo.",
         badges: ["Proteccion Familiar", "Seguridad de Ingresos"],
-        imageAlt: "Planificacion de seguro de vida",
+        imageAlt: "Momento familiar calido en una sala moderna",
       },
       {
-        title: "Dental",
-        category: "Cobertura Preventiva, Basica y Mayor",
+        title: "Dental y Vision",
+        category: "Cuidado preventivo, examenes y beneficios diarios",
         text:
-          "Encuentra planes dentales para limpiezas de rutina, cuidado restaurativo y beneficios familiares mas amplios sin gastar de mas.",
-        badges: ["Planes Familiares", "Ahorro en Red"],
-        imageAlt: "Opciones de cobertura dental",
+          "Compara planes dentales y de vision que ayudan con chequeos, limpiezas, empastes, examenes de la vista, lentes, contactos y cuidado diario mientras te mantienes dentro de tu presupuesto mensual.",
+        badges: ["Beneficios Familiares", "Ahorros Diarios"],
+        imageAlt: "Consulta calida en una clinica moderna",
       },
       {
-        title: "Vision",
-        category: "Examenes de Rutina, Monturas y Lentes",
+        title: "Gastos Finales",
+        category: "Proteccion funeraria y de fin de vida",
         text:
-          "Elige planes de vision que apoyen examenes anuales, lentes, contactos y beneficios de anteojos que se ajusten a tus necesidades.",
-        badges: ["Examenes de Vista", "Beneficios de Anteojos"],
-        imageAlt: "Opciones de cobertura de vision",
+          "Ayuda a proteger a tus seres queridos de costos funerarios, de entierro y otros gastos de fin de vida con una cobertura simple de gastos finales disenada para brindar tranquilidad a adultos mayores y familias.",
+        badges: ["Alivio Familiar", "Tranquilidad"],
+        imageAlt: "Conversacion familiar acogedora con luz natural",
       },
       {
-        title: "Beneficios Suplementarios",
-        category: "Accidente, Hospital y Enfermedad Critica",
+        title: "Seguro de Accidentes",
+        category: "Proteccion adicional para lesiones inesperadas",
         text:
-          "Agrega proteccion financiera adicional para los momentos en que las facturas medicas o la perdida de ingresos puedan presionar a tu hogar.",
-        badges: ["Beneficios en Efectivo", "Complementos Flexibles"],
-        imageAlt: "Beneficios suplementarios",
+          "El seguro de accidentes ayuda con costos de bolsillo cubiertos despues de lesiones inesperadas, dando a personas y familias proteccion financiera adicional cuando la vida no sale segun lo planeado.",
+        badges: ["Beneficios en Efectivo", "Proteccion Flexible"],
+        imageAlt: "Cuidado familiar y comodidad en casa",
       },
     ],
   },
@@ -729,71 +729,422 @@ const es = {
     },
   },
   serviceDetails: {
-    title: "Detalles del Servicio de Seguro de Salud",
-    intro:
-      "Entiende como ayudamos a los clientes a comparar opciones de seguro de salud, revisar beneficios y completar la inscripcion con una guia clara y practica.",
-    breadcrumb: "Detalles del Servicio de Seguro de Salud",
-    imageAlt: "Consulta de servicio de seguro de salud",
-    tag: "Orientacion de Cobertura",
-    heroTitle: "Apoyo personalizado de seguro de salud",
-    heroTagline:
-      "Comparaciones claras de planes, ayuda con inscripcion y orientacion continua de beneficios adaptada a tu situacion",
-    paragraphs: [
-      "Ayudamos a los clientes a organizar sus opciones de seguro de salud sin sentirse abrumados. Ya sea que busques un plan individual, ayudes a tu familia a comparar beneficios o revises tu cobertura antes de renovar, hacemos que los detalles sean mas faciles de entender.",
-      "Nuestro equipo explica redes de proveedores, cobertura de recetas, deducibles, primas y gastos de bolsillo para que te sientas seguro de que el plan elegido encaja con tus necesidades medicas y tu presupuesto.",
-    ],
-    includeTitle: "Nuestros Servicios Incluyen:",
-    includeItems: [
-      "Comparaciones lado a lado de planes ACA, privados y suplementarios",
-      "Revisiones de redes de proveedores, recetas y uso esperado",
-      "Orientacion sobre elegibilidad para subsidios y periodos especiales de inscripcion",
-      "Apoyo con planes Medicare e inscripcion anual",
-      "Recomendaciones de beneficios dentales, de vision y complementarios",
-      "Revisiones de renovacion cuando cambian tus doctores, recetas o presupuesto",
-    ],
-    actions: {
-      primary: "Programar una Revision de Cobertura",
-      secondary: "Ver Todos los Servicios",
-    },
-    cards: [
-      {
-        title: "Apoyo para Comparar Planes",
-        text:
-          "Organizamos las opciones de planes de una manera que hace mas facil comparar primas, deducibles y beneficios.",
-        cta: "Comparar Opciones",
-      },
-      {
-        title: "Asistencia de Inscripcion",
-        text:
-          "Recibe ayuda con solicitudes, documentacion, fechas de inicio y plazos importantes de inscripcion.",
-        cta: "Comenzar Inscripcion",
-      },
-      {
-        title: "Revisiones de Renovacion y Beneficios",
-        text:
-          "Antes de cada nuevo ano de plan, te ayudamos a revisar cambios en costos, beneficios, aseguradoras y redes.",
-        cta: "Revisar Cobertura",
-      },
-    ],
-    booking: {
-      title: "Listo para revisar tu cobertura?",
-      text:
-        "Nuestros agentes con licencia estan disponibles durante la semana para ayudarte a comparar planes, responder preguntas sobre beneficios y guiarte durante la inscripcion o renovacion.",
-      items: [
-        { label: "Horario de Asesoria", value: "Lun-Vie: 9:00 AM - 6:00 PM" },
-        { label: "Llama a un Agente", value: "(786) 397-7167" },
-        {
-          label: "Enfoque del Servicio",
-          value:
-            "Cobertura individual, familiar, Medicare, dental, vision y suplementaria",
+    defaultSlug: "health-insurance",
+    items: {
+      "health-insurance": {
+        title: "Seguro de Salud para Familias Haitianas en Florida",
+        intro:
+          "Compara planes ACA Marketplace y seguros de salud privados con guia clara sobre primas, deducibles, redes de doctores, cobertura de recetas y elegibilidad para subsidios.",
+        breadcrumb: "Seguro de Salud",
+        image: "/assets/img/health/cardiology-3.webp",
+        imageAlt: "Consulta de orientacion de seguro de salud",
+        tag: "Orientacion de Seguro de Salud",
+        heroTitle: "Apoyo Personalizado de Seguro de Salud",
+        heroTagline:
+          "Comparaciones claras de planes, ayuda con inscripcion y guia continua de beneficios adaptada a tus necesidades",
+        paragraphs: [
+          "Elegir seguro de salud puede sentirse abrumador, especialmente al comparar planes ACA Marketplace, opciones privadas, primas, deducibles, redes de proveedores y beneficios de recetas. Health4Haitians ayuda a individuos y familias en Florida a entender los detalles antes de inscribirse.",
+          "Ya sea que busques cobertura para ti, tu conyuge, tus hijos o tu hogar, te ayudamos a comparar planes segun tu presupuesto, doctores, medicamentos y costos esperados de bolsillo para elegir con mas confianza.",
+        ],
+        includeTitle: "Nuestros Servicios Incluyen:",
+        includeItems: [
+          "Comparaciones lado a lado de planes ACA Marketplace y seguros privados",
+          "Revision de primas, deducibles, copagos y costos esperados de bolsillo",
+          "Guia sobre redes de proveedores, doctores y cobertura de recetas",
+          "Ayuda para entender elegibilidad de subsidios y fechas de inscripcion",
+          "Apoyo durante solicitudes, periodos especiales de inscripcion y renovaciones",
+          "Revisiones de beneficios cuando cambian tu presupuesto, recetas o necesidades medicas",
+        ],
+        actions: {
+          primary: "Programar una Revision de Cobertura",
+          secondary: "Ver Todas las Opciones de Cobertura",
         },
-      ],
-    },
-    appointmentCard: {
-      title: "Reserva tu Revision",
-      text: "Programacion simple para orientacion de seguro de salud",
-      button: "Reservar Cita",
-      altLabel: "O llamanos al",
+        cards: [
+          {
+            title: "Apoyo para Comparar Planes",
+            text:
+              "Organizamos las opciones de manera simple para comparar primas, deducibles, beneficios, redes de proveedores y recetas con mas facilidad.",
+            cta: "Comparar Opciones",
+          },
+          {
+            title: "Asistencia de Inscripcion",
+            text:
+              "Recibe ayuda con solicitudes, documentos, preguntas sobre subsidios, fechas efectivas y plazos importantes.",
+            cta: "Comenzar Inscripcion",
+          },
+          {
+            title: "Renovaciones y Revisiones",
+            text:
+              "Antes de cada nuevo ano de plan, revisamos cambios en costos, beneficios, doctores, formularios y aseguradoras.",
+            cta: "Revisar Cobertura",
+          },
+        ],
+        booking: {
+          title: "Listo para Revisar tu Cobertura?",
+          text:
+            "Nuestros asesores con licencia pueden ayudarte a comparar planes de salud, entender beneficios y elegir cobertura que se ajuste a las necesidades y presupuesto mensual de tu familia.",
+          items: [
+            { label: "Horario de Asesoria", value: "Lun-Vie | 9:00 AM - 6:00 PM" },
+            { label: "Llama a un Asesor", value: "(786) 397-7167" },
+            {
+              label: "Enfoque del Servicio",
+              value:
+                "Planes ACA Marketplace, seguros privados, subsidios y revisiones anuales",
+            },
+          ],
+        },
+        appointmentCard: {
+          title: "Reserva tu Revision",
+          text: "Programa una consulta gratuita de seguro de salud con un asesor de confianza.",
+          button: "Reservar Cita",
+          altLabel: "O llamanos al",
+        },
+      },
+      "life-insurance": {
+        title: "Seguro de Vida para Familias Haitianas en Florida",
+        intro:
+          "Compara seguro de vida a termino, vida entera e IUL disenados para proteger a tu familia, ingresos, hipoteca, hijos y metas financieras a largo plazo.",
+        breadcrumb: "Seguro de Vida",
+        image: "/assets/img/health/orthopedics-4.webp",
+        imageAlt: "Consulta de seguro de vida",
+        tag: "Orientacion de Seguro de Vida",
+        heroTitle: "Apoyo Personalizado de Seguro de Vida",
+        heroTagline:
+          "Guia sobre termino, vida entera e IUL adaptada al futuro de tu familia",
+        paragraphs: [
+          "El seguro de vida es una de las formas mas importantes de proteger a las personas que dependen de ti. Si eres padre, conyuge, propietario, dueno de negocio o cuidador, la cobertura correcta puede ayudar a tus seres queridos si ocurre algo inesperado.",
+          "Health4Haitians ayuda a familias haitianas en Florida a comparar vida a termino, vida entera e IUL segun ingresos, dependientes, hipoteca, gastos finales, metas a largo plazo y presupuesto mensual.",
+        ],
+        includeTitle: "Nuestros Servicios Incluyen:",
+        includeItems: [
+          "Comparaciones de seguro de vida a termino para proteccion familiar accesible",
+          "Opciones de vida entera para cobertura estable a largo plazo",
+          "Guia de IUL para proteccion flexible y potencial de valor en efectivo",
+          "Revisiones basadas en ingresos, dependientes, hipoteca y necesidades familiares",
+          "Apoyo de planificacion de beneficiarios para proteger a quienes amas",
+          "Revisiones de polizas cuando cambian tu familia, presupuesto o metas",
+        ],
+        actions: {
+          primary: "Programar una Revision de Vida",
+          secondary: "Ver Todas las Opciones de Cobertura",
+        },
+        cards: [
+          {
+            title: "Proteccion de Vida a Termino",
+            text:
+              "Compara opciones accesibles disenadas para proteger ingresos, hipoteca, hijos y responsabilidades financieras importantes.",
+            cta: "Comparar Opciones a Termino",
+          },
+          {
+            title: "Guia de Vida Entera e IUL",
+            text:
+              "Revisa opciones permanentes, incluyendo vida entera e IUL, que pueden ofrecer cobertura a largo plazo y potencial de valor en efectivo.",
+            cta: "Explorar Cobertura Permanente",
+          },
+          {
+            title: "Revision de Proteccion Familiar",
+            text:
+              "Te ayudamos a estimar cuanta cobertura puede necesitar tu familia segun ingresos, deudas, hijos, vivienda, gastos finales y metas.",
+            cta: "Revisar Mis Necesidades",
+          },
+        ],
+        booking: {
+          title: "Listo para Proteger el Futuro de tu Familia?",
+          text:
+            "Nuestros asesores pueden ayudarte a comparar opciones de vida, entender tipos de poliza, revisar montos y elegir proteccion para tu familia.",
+          items: [
+            { label: "Horario de Asesoria", value: "Lun-Vie | 9:00 AM - 6:00 PM" },
+            { label: "Llama a un Asesor", value: "(786) 397-7167" },
+            {
+              label: "Enfoque del Servicio",
+              value:
+                "Vida a termino, vida entera, IUL, proteccion familiar, reemplazo de ingresos y revisiones",
+            },
+          ],
+        },
+        appointmentCard: {
+          title: "Reserva tu Revision",
+          text: "Programa una consulta gratuita de seguro de vida con un asesor de confianza.",
+          button: "Reservar Cita",
+          altLabel: "O llamanos al",
+        },
+      },
+      medicare: {
+        title: "Orientacion de Medicare para Seniors Haitianos en Florida",
+        intro:
+          "Compara Medicare Advantage, Medicare Supplement y Parte D con guia clara sobre ventanas de inscripcion, acceso a doctores, recetas, beneficios y revisiones anuales.",
+        breadcrumb: "Medicare",
+        image: "/assets/img/health/neurology-3.webp",
+        imageAlt: "Consulta de Medicare",
+        tag: "Orientacion de Medicare",
+        heroTitle: "Apoyo Personalizado de Inscripcion en Medicare",
+        heroTagline:
+          "Comparaciones claras de Medicare, revisiones de recetas y guia de inscripcion adaptada a tus necesidades",
+        paragraphs: [
+          "Medicare puede ser confuso al comparar Medicare Advantage, Medicare Supplement, Parte D, redes de proveedores, primas, copagos y fechas limite. Health4Haitians ayuda a seniors haitianos y familias en Florida a entender los detalles antes de elegir.",
+          "Ya sea que te inscribas por primera vez, revises tu cobertura actual, ayudes a un padre o compares durante el periodo anual, nuestros asesores revisan doctores, medicamentos, presupuesto, beneficios y necesidades de salud.",
+        ],
+        includeTitle: "Nuestros Servicios Incluyen:",
+        includeItems: [
+          "Comparaciones de Medicare Advantage segun doctores, beneficios, recetas y costos",
+          "Guia de Medicare Supplement para entender diferencias de cobertura",
+          "Revisiones de planes Parte D segun medicamentos y farmacias",
+          "Apoyo para entender ventanas de inscripcion y fechas importantes",
+          "Revisiones anuales cuando cambian beneficios, doctores, recetas o costos",
+          "Guia clara para seniors, cuidadores y familiares que ayudan a elegir cobertura",
+        ],
+        actions: {
+          primary: "Programar una Revision de Medicare",
+          secondary: "Ver Todas las Opciones de Cobertura",
+        },
+        cards: [
+          {
+            title: "Comparacion de Planes Medicare",
+            text:
+              "Compara Advantage, Supplement y Parte D segun doctores, recetas, beneficios, costos mensuales y disponibilidad en tu area.",
+            cta: "Comparar Medicare",
+          },
+          {
+            title: "Asistencia de Inscripcion",
+            text:
+              "Recibe ayuda con fechas, documentos, elegibilidad, fechas efectivas y pasos para completar tu inscripcion.",
+            cta: "Comenzar Ayuda Medicare",
+          },
+          {
+            title: "Revisiones Anuales de Medicare",
+            text:
+              "Cada ano revisamos cambios de plan, costos de recetas, redes de doctores, beneficios y aseguradoras antes de renovar o cambiar.",
+            cta: "Revisar Mi Medicare",
+          },
+        ],
+        booking: {
+          title: "Listo para Revisar tus Opciones de Medicare?",
+          text:
+            "Nuestros asesores pueden ayudarte a comparar Medicare, entender beneficios, revisar recetas y elegir una opcion que encaje con tus doctores, medicamentos y presupuesto.",
+          items: [
+            { label: "Horario de Asesoria", value: "Lun-Vie | 9:00 AM - 6:00 PM" },
+            { label: "Llama a un Asesor", value: "(786) 397-7167" },
+            {
+              label: "Enfoque del Servicio",
+              value:
+                "Medicare Advantage, Supplement, Parte D, ayuda de inscripcion y revisiones anuales",
+            },
+          ],
+        },
+        appointmentCard: {
+          title: "Reserva tu Revision de Medicare",
+          text: "Programa una consulta gratuita de Medicare con un asesor de confianza.",
+          button: "Reservar Cita",
+          altLabel: "O llamanos al",
+        },
+      },
+      "dental-vision": {
+        title: "Seguro Dental y de Vision para Familias Haitianas en Florida",
+        intro:
+          "Compara planes dentales y de vision que ayudan con limpiezas, examenes, empastes, examenes de la vista, lentes, contactos y cuidado preventivo.",
+        breadcrumb: "Dental y Vision",
+        image: "/assets/img/health/pediatrics-2.webp",
+        imageAlt: "Consulta de cobertura dental y de vision",
+        tag: "Orientacion Dental y Vision",
+        heroTitle: "Apoyo Personalizado Dental y de Vision",
+        heroTagline:
+          "Guia accesible para planes dentales y de vision adaptada al cuidado diario de tu familia",
+        paragraphs: [
+          "La cobertura dental y de vision puede hacer que el cuidado rutinario sea mas accesible. Desde limpiezas y examenes dentales hasta lentes, contactos, empastes, coronas y otras necesidades, Health4Haitians ayuda a comparar opciones claramente.",
+          "Ya necesites cobertura para ti, tus hijos, tu conyuge o un familiar mayor, nuestros asesores revisan beneficios, redes, periodos de espera, primas mensuales y costos de bolsillo.",
+        ],
+        includeTitle: "Nuestros Servicios Incluyen:",
+        includeItems: [
+          "Comparaciones de planes dentales para servicios preventivos, basicos y mayores",
+          "Guia de vision para examenes, lentes, contactos y asignaciones de monturas",
+          "Revisiones de redes para dentistas, doctores de ojos y ubicaciones participantes",
+          "Ayuda para entender primas, periodos de espera, copagos y maximos anuales",
+          "Opciones para individuos, familias, ninos y seniors",
+          "Revisiones cuando cambian las necesidades dentales, de vision o presupuesto",
+        ],
+        actions: {
+          primary: "Programar Revision Dental y Vision",
+          secondary: "Ver Todas las Opciones de Cobertura",
+        },
+        cards: [
+          {
+            title: "Apoyo para Planes Dentales",
+            text:
+              "Compara planes que pueden ayudar con limpiezas, examenes, rayos X, empastes, coronas, endodoncias, dentaduras y cuidado comun.",
+            cta: "Comparar Dental",
+          },
+          {
+            title: "Guia de Beneficios de Vision",
+            text:
+              "Revisa planes que pueden ayudar con examenes de vista, lentes recetados, contactos, cristales, monturas y asignaciones.",
+            cta: "Explorar Vision",
+          },
+          {
+            title: "Revision de Cobertura Familiar",
+            text:
+              "Comparamos opciones segun tamano de familia, proveedores preferidos, necesidades esperadas y presupuesto mensual.",
+            cta: "Revisar Opciones Familiares",
+          },
+        ],
+        booking: {
+          title: "Listo para Comparar Dental y Vision?",
+          text:
+            "Nuestros asesores pueden ayudarte a revisar planes, entender beneficios, comparar acceso a proveedores y elegir cobertura para el cuidado diario.",
+          items: [
+            { label: "Horario de Asesoria", value: "Lun-Vie | 9:00 AM - 6:00 PM" },
+            { label: "Llama a un Asesor", value: "(786) 397-7167" },
+            {
+              label: "Enfoque del Servicio",
+              value:
+                "Seguro dental, seguro de vision, cuidado preventivo, cobertura familiar y redes de proveedores",
+            },
+          ],
+        },
+        appointmentCard: {
+          title: "Reserva tu Revision",
+          text: "Programa una consulta gratuita de cobertura dental y de vision.",
+          button: "Reservar Cita",
+          altLabel: "O llamanos al",
+        },
+      },
+      "final-expense": {
+        title: "Seguro de Gastos Finales para Familias Haitianas en Florida",
+        intro:
+          "Compara opciones disenadas para ayudar a tus seres queridos con costos funerarios, entierro y otras necesidades financieras de fin de vida.",
+        breadcrumb: "Gastos Finales",
+        image: "/assets/img/health/laboratory-3.webp",
+        imageAlt: "Consulta de gastos finales",
+        tag: "Orientacion de Gastos Finales",
+        heroTitle: "Apoyo Personalizado de Gastos Finales",
+        heroTagline:
+          "Guia simple para proteger a tus seres queridos de costos de fin de vida",
+        paragraphs: [
+          "El seguro de gastos finales puede reducir el estres financiero que una familia enfrenta con costos funerarios, entierro y otros gastos de fin de vida. Para muchas familias, ofrece tranquilidad al prepararse para costos dificiles de manejar inesperadamente.",
+          "Health4Haitians ayuda a familias y seniors haitianos en Florida a comparar cobertura segun edad, presupuesto, necesidades, beneficiarios y metas de proteccion familiar.",
+        ],
+        includeTitle: "Nuestros Servicios Incluyen:",
+        includeItems: [
+          "Comparaciones de gastos finales para seniors y familias",
+          "Guia para costos funerarios, entierro y fin de vida",
+          "Revision de primas mensuales, montos de beneficio y opciones de poliza",
+          "Apoyo de planificacion de beneficiarios",
+          "Explicaciones simples de solicitudes y requisitos de aseguradoras",
+          "Revisiones cuando cambian tu familia, presupuesto o necesidades",
+        ],
+        actions: {
+          primary: "Programar Revision de Gastos Finales",
+          secondary: "Ver Todas las Opciones de Cobertura",
+        },
+        cards: [
+          {
+            title: "Proteccion Funeraria y Entierro",
+            text:
+              "Compara cobertura disenada para ayudar a tus seres queridos con gastos finales y menos presion financiera.",
+            cta: "Comparar Cobertura",
+          },
+          {
+            title: "Guia de Solicitud Simple",
+            text:
+              "Entiende pasos de solicitud, montos, primas, beneficiarios y requisitos de aseguradoras.",
+            cta: "Comenzar Guia",
+          },
+          {
+            title: "Tranquilidad Familiar",
+            text:
+              "Revisamos opciones que encajan con tu presupuesto y ayudan a dejar a tu familia mejor preparada.",
+            cta: "Revisar Mis Opciones",
+          },
+        ],
+        booking: {
+          title: "Listo para Planificar con Tranquilidad?",
+          text:
+            "Nuestros asesores pueden ayudarte a comparar gastos finales, entender beneficios, revisar primas y elegir cobertura para proteger a tus seres queridos.",
+          items: [
+            { label: "Horario de Asesoria", value: "Lun-Vie | 9:00 AM - 6:00 PM" },
+            { label: "Llama a un Asesor", value: "(786) 397-7167" },
+            {
+              label: "Enfoque del Servicio",
+              value:
+                "Gastos finales, proteccion funeraria, entierro, beneficiarios y tranquilidad familiar",
+            },
+          ],
+        },
+        appointmentCard: {
+          title: "Reserva tu Revision",
+          text: "Programa una consulta gratuita de gastos finales.",
+          button: "Reservar Cita",
+          altLabel: "O llamanos al",
+        },
+      },
+      "accident-insurance": {
+        title: "Seguro de Accidentes para Familias Haitianas en Florida",
+        intro:
+          "Compara opciones de seguro de accidentes para proteccion financiera extra despues de lesiones cubiertas y costos inesperados de bolsillo.",
+        breadcrumb: "Seguro de Accidentes",
+        image: "/assets/img/health/emergency-4.webp",
+        imageAlt: "Consulta de seguro de accidentes",
+        tag: "Orientacion de Accidentes",
+        heroTitle: "Apoyo Personalizado de Seguro de Accidentes",
+        heroTagline:
+          "Proteccion extra para lesiones inesperadas, costos medicos y presion financiera diaria",
+        paragraphs: [
+          "Los accidentes pueden ocurrir en casa, el trabajo, la carretera o actividades diarias. Incluso con seguro de salud, una lesion cubierta puede traer deducibles, copagos, emergencias, seguimientos, transporte o tiempo fuera del trabajo.",
+          "Health4Haitians ayuda a familias, individuos y trabajadores haitianos en Florida a comparar seguro de accidentes segun presupuesto, necesidades familiares, beneficios y como puede funcionar junto al seguro de salud.",
+        ],
+        includeTitle: "Nuestros Servicios Incluyen:",
+        includeItems: [
+          "Comparaciones de seguro de accidentes para individuos, familias y trabajadores",
+          "Guia para lesiones cubiertas, cuidado de emergencia y tratamiento de seguimiento",
+          "Revision de beneficios, primas mensuales y caracteristicas del plan",
+          "Apoyo para entender como funciona con el seguro de salud",
+          "Opciones para familias que quieren proteccion financiera extra",
+          "Revisiones cuando cambian tu presupuesto, trabajo, familia o necesidades",
+        ],
+        actions: {
+          primary: "Programar Revision de Accidentes",
+          secondary: "Ver Todas las Opciones de Cobertura",
+        },
+        cards: [
+          {
+            title: "Proteccion por Lesiones Inesperadas",
+            text:
+              "Compara planes que pueden ayudar despues de accidentes cotidianos, caidas, deportes, trabajo o viajes.",
+            cta: "Comparar Accidentes",
+          },
+          {
+            title: "Apoyo para Costos de Bolsillo",
+            text:
+              "Revisa planes que pueden ayudar con emergencias, deducibles, copagos, visitas de seguimiento, transporte o recuperacion.",
+            cta: "Revisar Beneficios",
+          },
+          {
+            title: "Respaldo Financiero Familiar",
+            text:
+              "Comparamos cobertura que agrega otra capa de proteccion financiera cuando un accidente crea gastos inesperados.",
+            cta: "Proteger Mi Familia",
+          },
+        ],
+        booking: {
+          title: "Listo para Agregar Proteccion Extra?",
+          text:
+            "Nuestros asesores pueden ayudarte a comparar seguro de accidentes, entender beneficios, revisar primas y elegir proteccion para tu familia.",
+          items: [
+            { label: "Horario de Asesoria", value: "Lun-Vie | 9:00 AM - 6:00 PM" },
+            { label: "Llama a un Asesor", value: "(786) 397-7167" },
+            {
+              label: "Enfoque del Servicio",
+              value:
+                "Seguro de accidentes, beneficios por lesiones, costos de bolsillo, proteccion familiar y revisiones",
+            },
+          ],
+        },
+        appointmentCard: {
+          title: "Reserva tu Revision",
+          text: "Programa una consulta gratuita de seguro de accidentes.",
+          button: "Reservar Cita",
+          altLabel: "O llamanos al",
+        },
+      },
     },
   },
   testimonials: {

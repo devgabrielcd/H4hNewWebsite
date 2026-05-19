@@ -1,4 +1,5 @@
-import { getHomeDictionary, localizePath } from "@/lib/i18n";
+import QuoteModalLauncher from "@/app/_components/QuoteModalLauncher";
+import { getAppointmentDictionary, getHomeDictionary, getTestimonialsDictionary, localizePath } from "@/lib/i18n";
 
 const featuredDepartmentIcons = [
   "fas fa-heartbeat",
@@ -26,15 +27,35 @@ const featuredServiceImages = [
   "/assets/img/health/laboratory-3.webp",
 ];
 
+const featuredServiceSlugs = [
+  "health-insurance",
+  "life-insurance",
+  "medicare",
+  "dental-vision",
+  "final-expense",
+  "accident-insurance",
+];
+
 const ctaServiceIcons = [
   "fas fa-heartbeat",
   "fas fa-band-aid",
   "fas fa-shield-alt",
 ];
 
+const testimonialImages = [
+  "/assets/img/person/person-m-9.webp",
+  "/assets/img/person/person-f-5.webp",
+  "/assets/img/person/person-f-12.webp",
+  "/assets/img/person/person-m-12.webp",
+  "/assets/img/person/person-m-13.webp",
+  "/assets/img/person/person-f-13.webp",
+];
+
 export default async function IndexPage({ params }) {
   const { lang = "en" } = await params;
   const home = getHomeDictionary(lang);
+  const appointment = getAppointmentDictionary(lang);
+  const testimonials = getTestimonialsDictionary(lang);
 
   return (
     <main className="main">
@@ -64,9 +85,12 @@ export default async function IndexPage({ params }) {
                 <p className="hero-description">{home.hero.description}</p>
                 <div className="cta-section">
                   <div className="cta-buttons">
-                    <a href={localizePath("/contact", lang)} className="btn btn-primary">
-                      {home.hero.primaryCta}
-                    </a>
+                    <QuoteModalLauncher
+                      className="btn btn-primary"
+                      form={appointment.form}
+                      label={home.hero.primaryCta}
+                      locale={lang}
+                    />
                     <a
                       href="https://www.youtube.com/watch?v=Y7f98aduVJ8"
                       className="btn btn-secondary glightbox"
@@ -192,7 +216,6 @@ export default async function IndexPage({ params }) {
           </div>
         </div>
       </section>
-
       <section id="featured-departments" className="featured-departments section">
         <div className="container section-title" data-aos="fade-up">
           <h2>{home.featuredDepartments.title}</h2>
@@ -221,7 +244,7 @@ export default async function IndexPage({ params }) {
                         </div>
                       ))}
                     </div>
-                    <a href={localizePath("/department-details", lang)} className="cta-link">
+                    <a href={localizePath("/services", lang)} className="cta-link">
                       {home.featuredDepartments.featured.cta}
                       <i className="fas fa-arrow-right"></i>
                     </a>
@@ -276,7 +299,7 @@ export default async function IndexPage({ params }) {
               <div className="cta-content">
                 <h3 className="cta-title">{home.featuredDepartments.ctaTitle}</h3>
                 <p className="cta-description">{home.featuredDepartments.ctaDescription}</p>
-                <a href={localizePath("/departments", lang)} className="btn btn-primary">
+                <a href={localizePath("/services", lang)} className="btn btn-primary">
                   {home.featuredDepartments.ctaButton}
                 </a>
               </div>
@@ -309,7 +332,10 @@ export default async function IndexPage({ params }) {
                   <div className="service-content">
                     <h3>{card.title}</h3>
                     <p>{card.description}</p>
-                    <a href={localizePath("/service-details", lang)} className="service-link">
+                    <a
+                      href={localizePath(`/service-details/${featuredServiceSlugs[index]}`, lang)}
+                      className="service-link"
+                    >
                       {home.featuredServices.learnMore}
                       <i className="fas fa-arrow-right"></i>
                     </a>
@@ -318,6 +344,45 @@ export default async function IndexPage({ params }) {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section id="home-testimonials" className="home-testimonials testimonials section">
+        <div className="container section-title" data-aos="fade-up">
+          <h2>{testimonials.title}</h2>
+          <p>{testimonials.intro}</p>
+        </div>
+        <div className="container" data-aos="fade-up" data-aos-delay="100">
+          <div className="home-testimonials-carousel" aria-label={testimonials.title}>
+            {testimonials.items.map((item, index) => (
+              <article className="testimonial-item home-testimonial-card" key={item.name}>
+                <div className="stars" aria-hidden="true">
+                  <i className="bi bi-star-fill"></i>
+                  <i className="bi bi-star-fill"></i>
+                  <i className="bi bi-star-fill"></i>
+                  <i className="bi bi-star-fill"></i>
+                  <i className="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i className="bi bi-quote quote-icon-left"></i>
+                  <span>{item.text}</span>
+                </p>
+                <div className="testimonial-person">
+                  <img
+                    src={testimonialImages[index]}
+                    className="testimonial-img"
+                    alt={item.name}
+                    loading="lazy"
+                  />
+                  <div>
+                    <h3>{item.name}</h3>
+                    <h4>{item.role}</h4>
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
+
         </div>
       </section>
 
@@ -330,9 +395,12 @@ export default async function IndexPage({ params }) {
                   <h2>{home.cta.title}</h2>
                   <p>{home.cta.description}</p>
                   <div className="action-buttons">
-                    <a href={localizePath("/appointment", lang)} className="primary-btn">
-                      {home.cta.primary}
-                    </a>
+                    <QuoteModalLauncher
+                      className="primary-btn"
+                      form={appointment.form}
+                      label={home.cta.primary}
+                      locale={lang}
+                    />
                     <a href={localizePath("/services", lang)} className="secondary-link">
                       <span>{home.cta.secondary}</span>
                       <i className="fas fa-arrow-right"></i>
