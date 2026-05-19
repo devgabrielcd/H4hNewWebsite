@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import FloatingQuoteTab from "../_components/FloatingQuoteTab";
 import Footer from "../_components/Footer";
 import LanguagePreferenceSync from "../_components/LanguagePreferenceSync";
 import Navbar from "../_components/Navbar";
@@ -20,6 +21,7 @@ export default async function LocaleLayout({ children, params }) {
       <LanguagePreferenceSync locale={lang} />
       <Navbar locale={lang} />
       {children}
+      <FloatingQuoteTab locale={lang} />
       <Footer locale={lang} />
     </>
   );

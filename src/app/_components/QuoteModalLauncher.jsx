@@ -133,7 +133,17 @@ function OptionGrid({ name, options, images, value, onSelect }) {
   );
 }
 
-export default function QuoteModalLauncher({ className = "", form, label, locale = "en" }) {
+export default function QuoteModalLauncher({
+  className = "",
+  form,
+  label,
+  locale = "en",
+  onPointerDown,
+  onPointerMove,
+  onPointerUp,
+  onTriggerClick,
+  style,
+}) {
   const [isOpen, setIsOpen] = useState(false);
   const [step, setStep] = useState(0);
   const [formData, setFormData] = useState(initialFormData);
@@ -408,7 +418,21 @@ export default function QuoteModalLauncher({ className = "", form, label, locale
 
   return (
     <>
-      <button className={className} type="button" onClick={openModal}>
+      <button
+        className={className}
+        type="button"
+        style={style}
+        onPointerDown={onPointerDown}
+        onPointerMove={onPointerMove}
+        onPointerUp={onPointerUp}
+        onClick={(event) => {
+          if (onTriggerClick?.(event) === false || event.defaultPrevented) {
+            return;
+          }
+
+          openModal();
+        }}
+      >
         {label}
       </button>
 
