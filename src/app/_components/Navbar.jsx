@@ -53,7 +53,7 @@ export default function Navbar({ locale = "en" }) {
   }
 
   return (
-    <header id="header" className="header fixed-top">
+    <header id="header" className={`header fixed-top${isMobileNavOpen ? " is-mobile-nav-open" : ""}`}>
       <div className="topbar d-flex align-items-center">
         <div className="container d-flex align-items-center justify-content-center justify-content-md-between">
           <div className="contact-info d-flex align-items-center">

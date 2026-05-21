@@ -739,10 +739,31 @@ h6 {
     overflow: hidden;
   }
 
+  .header.is-mobile-nav-open {
+    inset: 0;
+    height: 100dvh;
+    background: rgba(33, 37, 41, 0.8);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+
+  .header.is-mobile-nav-open .topbar,
+  .header.is-mobile-nav-open .branding > .logo,
+  .header.is-mobile-nav-open .header-actions {
+    visibility: hidden;
+  }
+
+  .header.is-mobile-nav-open .branding {
+    position: static !important;
+    height: 100%;
+    max-width: none;
+    padding: 0;
+  }
+
   .mobile-nav-active .mobile-nav-toggle,
   .navmenu.is-mobile-open .mobile-nav-toggle {
     color: #fff;
-    position: absolute;
+    position: fixed;
     font-size: 32px;
     top: 15px;
     right: 15px;
@@ -752,7 +773,7 @@ h6 {
 
   .mobile-nav-active .navmenu,
   .navmenu.is-mobile-open {
-    position: fixed;
+    position: absolute;
     overflow: hidden;
     inset: 0;
     background: rgba(33, 37, 41, 0.8);
@@ -768,6 +789,7 @@ h6 {
     right: 20px;
     bottom: 20px;
     height: auto;
+    max-height: none;
   }
 }
 
