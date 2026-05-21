@@ -1907,6 +1907,7 @@ section,
   position: relative;
   overflow: hidden;
   border-radius: 8px;
+  background: #ffffff;
 }
 
 .featured-departments .image-wrapper::before {
@@ -1925,7 +1926,8 @@ section,
 .featured-departments .image-wrapper img {
   width: 100%;
   height: 500px;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
   transition: transform 0.4s ease;
 }
 
@@ -1936,7 +1938,7 @@ section,
 }
 
 .featured-departments .image-wrapper:hover img {
-  transform: scale(1.02);
+  transform: none;
 }
 
 .featured-departments .departments-grid {
@@ -5703,6 +5705,22 @@ body.quote-modal-open {
   height: 64px;
   border-radius: 8px;
   object-fit: cover;
+}
+
+.quote-option-card__badge {
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--accent-color), transparent 12%), var(--accent-color));
+  color: var(--contrast-color);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.94rem;
+  font-weight: 800;
+  line-height: 1;
+  box-shadow: inset 0 -10px 18px rgba(20, 28, 36, 0.12);
 }
 
 .quote-option-card span {

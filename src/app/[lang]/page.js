@@ -252,7 +252,7 @@ export default async function IndexPage({ params }) {
                 </div>
                 <div className="col-lg-6 order-lg-2">
                   <div className="department-visual">
-                    <div className="image-wrapper">
+                    <div>
                       <img
                         src="/assets/img/plans/plans.png"
                         alt={home.featuredDepartments.featured.imageAlt}
@@ -264,7 +264,7 @@ export default async function IndexPage({ params }) {
               </div>
             </div>
 
-            <div className="departments-grid">
+            {/* <div className="departments-grid">
               <div className="row">
                 {home.featuredDepartments.cards.map((card, index) => (
                   <div
@@ -293,7 +293,7 @@ export default async function IndexPage({ params }) {
                   </div>
                 ))}
               </div>
-            </div>
+            </div> */}
 
             <div className="departments-cta" data-aos="fade-up" data-aos-delay="600">
               <div className="cta-content">

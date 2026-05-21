@@ -19,7 +19,7 @@ const initialFormData = {
 
 const coverageImages = [
   "/assets/img/person/person-m-9.webp",
-  "/assets/img/person/person-f-5.webp",
+  "/assets/img/health/consultation-3.webp",
 ];
 
 const insuranceImages = [
@@ -29,12 +29,12 @@ const insuranceImages = [
   "/assets/img/health/pediatrics-4.webp",
 ];
 
-const incomeImages = [
-  "/assets/img/health/staff-1.webp",
-  "/assets/img/health/staff-2.webp",
-  "/assets/img/health/staff-3.webp",
-  "/assets/img/health/staff-5.webp",
-  "/assets/img/health/staff-6.webp",
+const incomeVisuals = [
+  { type: "badge", label: "$15K" },
+  { type: "badge", label: "$30K" },
+  { type: "badge", label: "$50K" },
+  { type: "badge", label: "$75K" },
+  { type: "badge", label: "$75K+" },
 ];
 
 const quoteCopy = {
@@ -114,7 +114,19 @@ function isStepComplete(step, formData) {
   return step === 5 ? hasValues && /^\d{5}$/.test(formData.zipCode) : hasValues;
 }
 
-function OptionGrid({ name, options, images, value, onSelect }) {
+function OptionVisual({ visual }) {
+  if (typeof visual === "string") {
+    return <img src={visual} alt="" loading="lazy" />;
+  }
+
+  return (
+    <span className="quote-option-card__badge" aria-hidden="true">
+      {visual.label}
+    </span>
+  );
+}
+
+function OptionGrid({ name, options, visuals, value, onSelect }) {
   return (
     <div className="quote-option-grid">
       {options.map((option, index) => (
@@ -124,7 +136,7 @@ function OptionGrid({ name, options, images, value, onSelect }) {
           type="button"
           onClick={() => onSelect(name, option.value)}
         >
-          <img src={images[index % images.length]} alt="" loading="lazy" />
+          <OptionVisual visual={visuals[index % visuals.length]} />
           <span>{option.label}</span>
           <i className="bi bi-check-circle-fill" aria-hidden="true"></i>
         </button>
@@ -294,7 +306,7 @@ export default function QuoteModalLauncher({
         <OptionGrid
           name="coverageType"
           options={coverageTypeOptions}
-          images={coverageImages}
+          visuals={coverageImages}
           value={formData.coverageType}
           onSelect={updateField}
         />
@@ -306,7 +318,7 @@ export default function QuoteModalLauncher({
         <OptionGrid
           name="insuranceCoverage"
           options={form.insuranceCoverageOptions}
-          images={insuranceImages}
+          visuals={insuranceImages}
           value={formData.insuranceCoverage}
           onSelect={updateField}
         />
@@ -318,7 +330,7 @@ export default function QuoteModalLauncher({
         <OptionGrid
           name="householdIncome"
           options={form.householdIncomeOptions}
-          images={incomeImages}
+          visuals={incomeVisuals}
           value={formData.householdIncome}
           onSelect={updateField}
         />
