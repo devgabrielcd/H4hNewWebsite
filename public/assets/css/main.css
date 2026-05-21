@@ -643,6 +643,7 @@ h6 {
     justify-content: center;
     cursor: pointer;
     transition: color 0.3s;
+    padding: 0;
   }
 
   .navmenu {
@@ -738,7 +739,8 @@ h6 {
     overflow: hidden;
   }
 
-  .mobile-nav-active .mobile-nav-toggle {
+  .mobile-nav-active .mobile-nav-toggle,
+  .navmenu.is-mobile-open .mobile-nav-toggle {
     color: #fff;
     position: absolute;
     font-size: 32px;
@@ -748,7 +750,8 @@ h6 {
     z-index: 9999;
   }
 
-  .mobile-nav-active .navmenu {
+  .mobile-nav-active .navmenu,
+  .navmenu.is-mobile-open {
     position: fixed;
     overflow: hidden;
     inset: 0;
@@ -756,8 +759,15 @@ h6 {
     transition: 0.3s;
   }
 
-  .mobile-nav-active .navmenu>ul {
+  .mobile-nav-active .navmenu>ul,
+  .navmenu.is-mobile-open>ul {
     display: block;
+    position: fixed;
+    top: 76px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    height: auto;
   }
 }
 

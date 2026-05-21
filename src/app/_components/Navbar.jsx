@@ -1,8 +1,10 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import LanguageSelector from "./LanguageSelector";
+import { socialLinks } from "./socialLinks";
 import { getShellDictionary, localizePath, removeLocaleFromPathname } from "@/lib/i18n";
 
 function isActive(pathname, path) {
@@ -10,8 +12,45 @@ function isActive(pathname, path) {
 }
 
 export default function Navbar({ locale = "en" }) {
-  const pathname = removeLocaleFromPathname(usePathname() || "/");
+  const rawPathname = usePathname() || "/";
+  const pathname = removeLocaleFromPathname(rawPathname);
+  const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
+  const [isResourcesOpen, setIsResourcesOpen] = useState(false);
   const t = getShellDictionary(locale);
+
+  useEffect(() => {
+    setIsMobileNavOpen(false);
+    setIsResourcesOpen(false);
+    document.body.classList.remove("mobile-nav-active");
+  }, [rawPathname]);
+
+  useEffect(() => {
+    document.body.classList.toggle("mobile-nav-active", isMobileNavOpen);
+
+    return () => {
+      document.body.classList.remove("mobile-nav-active");
+    };
+  }, [isMobileNavOpen]);
+
+  function closeMobileNav() {
+    setIsMobileNavOpen(false);
+    setIsResourcesOpen(false);
+  }
+
+  function toggleMobileNav(event) {
+    event.preventDefault();
+    event.nativeEvent?.stopImmediatePropagation?.();
+    setIsMobileNavOpen((current) => !current);
+  }
+
+  function toggleResources(event) {
+    if (window.innerWidth >= 1200) {
+      return;
+    }
+
+    event.preventDefault();
+    setIsResourcesOpen((current) => !current);
+  }
 
   return (
     <header id="header" className="header fixed-top">
@@ -32,15 +71,17 @@ export default function Navbar({ locale = "en" }) {
             </a>
           </div>
           <div className="social-links d-none d-md-flex align-items-center">
-            <a href="#!" aria-label="Twitter">
-              <i className="bi bi-twitter-x" />
-            </a>
-            <a href="#!" aria-label="Facebook">
-              <i className="bi bi-facebook" />
-            </a>
-            <a href="#!" aria-label="Instagram">
-              <i className="bi bi-instagram" />
-            </a>
+            {socialLinks.map((social) => (
+              <a
+                href={social.href}
+                aria-label={social.label}
+                key={social.label}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className={social.icon} />
+              </a>
+            ))}
           </div>
         </div>
       </div>
@@ -53,10 +94,10 @@ export default function Navbar({ locale = "en" }) {
           </h1>
         </Link>
 
-        <nav id="navmenu" className="navmenu">
+        <nav id="navmenu" className={`navmenu${isMobileNavOpen ? " is-mobile-open" : ""}`}>
           <ul>
             <li>
-              <Link href={localizePath("/", locale)} className={isActive(pathname, "/")}>
+              <Link href={localizePath("/", locale)} className={isActive(pathname, "/")} onClick={closeMobileNav}>
                 {t.nav.home}
               </Link>
             </li>
@@ -64,6 +105,7 @@ export default function Navbar({ locale = "en" }) {
               <Link
                 href={localizePath("/about", locale)}
                 className={isActive(pathname, "/about")}
+                onClick={closeMobileNav}
               >
                 {t.nav.about}
               </Link>
@@ -72,6 +114,7 @@ export default function Navbar({ locale = "en" }) {
               <Link
                 href={localizePath("/departments", locale)}
                 className={isActive(pathname, "/departments")}
+                onClick={closeMobileNav}
               >
                 {t.nav.coverageOptions}
               </Link>
@@ -80,20 +123,27 @@ export default function Navbar({ locale = "en" }) {
               <Link
                 href={localizePath("/services", locale)}
                 className={isActive(pathname, "/services")}
+                onClick={closeMobileNav}
               >
                 {t.nav.plans}
               </Link>
             </li>
             <li className="dropdown">
-              <a href="#">
+              <a
+                href="#"
+                className={isResourcesOpen ? "active" : undefined}
+                onClick={toggleResources}
+                aria-expanded={isResourcesOpen}
+              >
                 <span>{t.nav.resources}</span>{" "}
-                <i className="bi bi-chevron-down toggle-dropdown" />
+                <i className="bi bi-chevron-down" />
               </a>
-              <ul>
+              <ul className={isResourcesOpen ? "dropdown-active" : undefined}>
                 <li>
                   <Link
                     href={localizePath("/department-details", locale)}
                     className={isActive(pathname, "/department-details")}
+                    onClick={closeMobileNav}
                   >
                     {t.nav.departmentDetails}
                   </Link>
@@ -102,6 +152,7 @@ export default function Navbar({ locale = "en" }) {
                   <Link
                     href={localizePath("/service-details", locale)}
                     className={isActive(pathname, "/service-details")}
+                    onClick={closeMobileNav}
                   >
                     {t.nav.serviceDetails}
                   </Link>
@@ -110,6 +161,7 @@ export default function Navbar({ locale = "en" }) {
                   <Link
                     href={localizePath("/testimonials", locale)}
                     className={isActive(pathname, "/testimonials")}
+                    onClick={closeMobileNav}
                   >
                     {t.nav.testimonials}
                   </Link>
@@ -118,12 +170,13 @@ export default function Navbar({ locale = "en" }) {
                   <Link
                     href={localizePath("/refer-a-friend", locale)}
                     className={isActive(pathname, "/refer-a-friend")}
+                    onClick={closeMobileNav}
                   >
                     {t.nav.referFriend}
                   </Link>
                 </li>
                 <li>
-                  <Link href={localizePath("/faq", locale)} className={isActive(pathname, "/faq")}>
+                  <Link href={localizePath("/faq", locale)} className={isActive(pathname, "/faq")} onClick={closeMobileNav}>
                     {t.nav.faq}
                   </Link>
                 </li>
@@ -131,6 +184,7 @@ export default function Navbar({ locale = "en" }) {
                   <Link
                     href={localizePath("/gallery", locale)}
                     className={isActive(pathname, "/gallery")}
+                    onClick={closeMobileNav}
                   >
                     {t.nav.gallery}
                   </Link>
@@ -139,6 +193,7 @@ export default function Navbar({ locale = "en" }) {
                   <Link
                     href={localizePath("/terms", locale)}
                     className={isActive(pathname, "/terms")}
+                    onClick={closeMobileNav}
                   >
                     {t.nav.terms}
                   </Link>
@@ -147,6 +202,7 @@ export default function Navbar({ locale = "en" }) {
                   <Link
                     href={localizePath("/privacy", locale)}
                     className={isActive(pathname, "/privacy")}
+                    onClick={closeMobileNav}
                   >
                     {t.nav.privacy}
                   </Link>
@@ -157,13 +213,20 @@ export default function Navbar({ locale = "en" }) {
               <Link
                 href={localizePath("/contact", locale)}
                 className={isActive(pathname, "/contact")}
+                onClick={closeMobileNav}
               >
                 {t.nav.contact}
               </Link>
             </li>
 
           </ul>
-          <i className="mobile-nav-toggle d-xl-none bi bi-list" />
+          <button
+            type="button"
+            className={`mobile-nav-toggle d-xl-none bi ${isMobileNavOpen ? "bi-x" : "bi-list"}`}
+            aria-label={isMobileNavOpen ? "Close navigation menu" : "Open navigation menu"}
+            aria-expanded={isMobileNavOpen}
+            onClick={toggleMobileNav}
+          />
         </nav>
 
         <div className="header-actions">

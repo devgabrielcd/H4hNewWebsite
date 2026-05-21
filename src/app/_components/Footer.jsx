@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { socialLinks } from "./socialLinks";
 import { getShellDictionary, localizePath } from "@/lib/i18n";
 
 export default function Footer({ locale = "en" }) {
@@ -25,18 +26,17 @@ export default function Footer({ locale = "en" }) {
               </p>
             </div>
             <div className="social-links d-flex mt-4">
-              <a href="#">
-                <i className="bi bi-twitter-x" />
-              </a>
-              <a href="#">
-                <i className="bi bi-facebook" />
-              </a>
-              <a href="#">
-                <i className="bi bi-instagram" />
-              </a>
-              <a href="#">
-                <i className="bi bi-linkedin" />
-              </a>
+              {socialLinks.map((social) => (
+                <a
+                  href={social.href}
+                  aria-label={social.label}
+                  key={social.label}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className={social.icon} />
+                </a>
+              ))}
             </div>
           </div>
 

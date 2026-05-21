@@ -4,16 +4,9 @@ import {
   localizePath,
 } from "@/lib/i18n";
 import ContactForm from "@/app/_components/ContactForm";
+import { socialLinks } from "@/app/_components/socialLinks";
 
 const infoIcons = ["bi bi-geo-alt", "bi bi-telephone", "bi bi-envelope"];
-const socialClasses = ["twitter", "facebook", "instagram", "linkedin", "youtube"];
-const socialIcons = [
-  "bi bi-twitter",
-  "bi bi-facebook",
-  "bi bi-instagram",
-  // "bi bi-linkedin",
-  // "bi bi-youtube",
-];
 
 export default async function ContactPage({ params }) {
   const { lang = "en" } = await params;
@@ -69,8 +62,17 @@ export default async function ContactPage({ params }) {
               </div>
             </div>
             <div className="social-links text-center mt-5" data-aos="zoom-in" data-aos-delay="700">
-              {socialIcons.map((icon, index) => (
-                <a href="#" className={socialClasses[index]} key={icon}><i className={icon}></i></a>
+              {socialLinks.map((social) => (
+                <a
+                  href={social.href}
+                  className={social.className}
+                  aria-label={social.label}
+                  key={social.label}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className={social.icon}></i>
+                </a>
               ))}
             </div>
           </div>
