@@ -1154,40 +1154,34 @@ const es = {
     breadcrumb: "Testimonios",
     items: [
       {
-        name: "Daniel Brooks",
-        role: "Dueno de Pequeno Negocio",
+        name: "Francene Mitial",
+        role: "Cliente",
         text:
-          "Me ayudaron a comparar opciones de beneficios para empleados de una forma que finalmente tuvo sentido. Encontramos una estructura de plan que funciono para mi presupuesto y para mi equipo.",
+          "Todo fue hecho de manera excelente y el proceso de inscripcion termino bien. Fue una experiencia formidable, un intercambio muy agradable entre el agente y yo para lograrlo; esta ayuda era muy necesaria, diria indispensable. De todos modos, estamos esperando el seguimiento para que pueda tener la oportunidad de ir a ver al doctor. Muchas gracias por compartir la informacion conmigo. Felicitaciones!",
       },
       {
-        name: "Angela Wilson",
-        role: "Disenadora Freelance",
+        name: "Christele Saint Jean",
+        role: "Cliente",
         text:
-          "Estaba abrumada tratando de elegir cobertura por mi cuenta. Su agente me explico primas, recetas y redes medicas con mucha paciencia.",
+          "Estoy encantada de haber elegido a H4H para ayudarme con mi proceso de seguro de salud. Fue una alegria ver con cuanto carino el equipo me recibio y me guio. Todo se resolvio rapidamente, y valoro especialmente que, incluso si solo hablas creole, ellos te entienden y te guian durante todo el proceso. Nunca me dejaron sola, siempre verificaban que todo marchara bien, confirmaron que recibiera mi tarjeta y me explicaron cada detalle que no entendia. No tengo quejas, solo gratitud por esta iniciativa maravillosa para ayudar a cada haitiano de nuestra comunidad a acceder plenamente a estos servicios. Mas personas deberian conocer este servicio excepcional. Gracias, equipo de H4H, por apoyar a nuestra comunidad!",
       },
       {
-        name: "Melissa Carter",
-        role: "Madre de Tres Hijos",
+        name: "Jean Robert",
+        role: "Cliente",
         text:
-          "Necesitabamos una cobertura familiar que mantuviera a nuestro pediatra dentro de la red y no destruyera nuestro presupuesto mensual. Redujeron las opciones rapido y con claridad.",
+          "Excelente servicio de principio a fin. El equipo fue atento y se aseguro de que entendiera cada parte del proceso. Realmente agradezco lo facil que hicieron todo para mi.",
       },
       {
-        name: "Robert Hayes",
-        role: "Cliente de Medicare",
+        name: "Marie Louise",
+        role: "Cliente",
         text:
-          "Cumplir 65 anos parecia complicado hasta que su equipo explico Medicare Advantage, planes Suplementarios y Parte D en un lenguaje sencillo. Me senti informado y no apresurado.",
+          "Estoy muy feliz con la ayuda que recibi. Fueron pacientes, explicaron todo con claridad y me dieron seguimiento despues. Los recomendaria a cualquier persona que busque apoyo con su seguro de salud.",
       },
       {
         name: "Jason Larson",
         role: "Consultor Independiente",
         text:
           "Mi renovacion tenia cambios grandes en la prima y detectaron detalles que yo habria pasado por alto. Esa revision me ahorro dinero y mejoro mi cobertura.",
-      },
-      {
-        name: "Emily Harrison",
-        role: "Nueva Propietaria de Vivienda",
-        text:
-          "Llegue buscando seguro de salud y termine recibiendo una orientacion inteligente sobre dental, vision y seguro de vida tambien. Todo el proceso se sintio honesto y solidario.",
       },
     ],
   },

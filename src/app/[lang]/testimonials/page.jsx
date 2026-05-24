@@ -5,12 +5,11 @@ import {
 } from "@/lib/i18n";
 
 const images = [
-  "/assets/img/person/person-m-9.webp",
-  "/assets/img/person/person-f-5.webp",
   "/assets/img/person/person-f-12.webp",
+  "/assets/img/person/person-f-5.webp",
   "/assets/img/person/person-m-12.webp",
-  "/assets/img/person/person-m-13.webp",
   "/assets/img/person/person-f-13.webp",
+  "/assets/img/person/person-m-13.webp",
 ];
 
 export default async function TestimonialsPage({ params }) {
@@ -48,7 +47,6 @@ export default async function TestimonialsPage({ params }) {
                 <div className="testimonial-item">
                   <img src={images[index]} className="testimonial-img" alt={item.name} />
                   <h3>{item.name}</h3>
-                  <h4>{item.role}</h4>
                   <div className="stars">
                     <i className="bi bi-star-fill"></i>
                     <i className="bi bi-star-fill"></i>

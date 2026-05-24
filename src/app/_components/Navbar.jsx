@@ -180,7 +180,7 @@ export default function Navbar({ locale = "en" }) {
                     {t.nav.faq}
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     href={localizePath("/gallery", locale)}
                     className={isActive(pathname, "/gallery")}
@@ -188,7 +188,7 @@ export default function Navbar({ locale = "en" }) {
                   >
                     {t.nav.gallery}
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link
                     href={localizePath("/terms", locale)}

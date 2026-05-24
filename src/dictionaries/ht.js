@@ -1153,40 +1153,34 @@ const ht = {
     breadcrumb: "Temwayaj",
     items: [
       {
-        name: "Daniel Brooks",
-        role: "Pwopriyetè Ti Biznis",
+        name: "Francene Mitial",
+        role: "Kliyan",
         text:
-          "Yo te ede m konpare opsyon benefis pou anplwaye yo yon fason ki finalman te fè sans. Nou te jwenn yon estrikti plan ki te mache pou bidjè mwen ak ekip mwen an.",
+          "Tout bagay te fèt bèl anpil epi pwosesis enskripsyon an te fini byen. Se te yon eksperyans ekstraòdinè, yon bèl echanj ant ajan an ak mwen pou rive fè sa; èd sa a te nesesè anpil, mwen dwe di li te vrèman nesesè. Antouka, n ap tann swivi a pou m ka gen chans ale wè doktè a. Mèsi anpil paske ou te pataje enfòmasyon an avè m. Chapo ba!",
       },
       {
-        name: "Angela Wilson",
-        role: "Designer Endepandan",
+        name: "Christele Saint Jean",
+        role: "Kliyan",
         text:
-          "Mwen te santi m depase pandan m t ap eseye chwazi kouveti pou kont mwen. Ajan yo te mache avè m nan prim yo, preskripsyon yo ak rezo doktè yo ak anpil pasyans.",
+          "Mwen kontan anpil dèske mwen te chwazi H4H pou ede m nan pwosesis asirans sante mwen an. Se te yon jwa pou m wè jan ekip la te akeyi m ak chalè epi gide m. Tout bagay te rezoud rapid, epi mwen apresye espesyalman lefèt ke menm si ou pale kreyòl sèlman, yo konprann ou epi yo gide ou tout wout la. Yo pa janm kite m poukont mwen, yo te toujou ap verifye pou asire tout bagay mache byen, yo konfime mwen te resevwa kat mwen, epi yo eksplike m chak detay mwen pa t konprann. Mwen pa gen okenn plent, se rekonesans sèlman pou bèl inisyativ sa a ki ede chak Ayisyen nan kominote nou an jwenn aksè ak sèvis sa yo nèt. Plis moun ta dwe konnen sèvis eksepsyonèl sa a. Mèsi, ekip H4H, paske nou sipòte kominote nou an!",
       },
       {
-        name: "Melissa Carter",
-        role: "Manman Twa Timoun",
+        name: "Jean Robert",
+        role: "Kliyan",
         text:
-          "Nou te bezwen yon kouveti familyal ki kenbe pedyat nou an nan rezo a san li pa kraze bidjè mansyèl nou an. Yo te redui opsyon yo rapidman ak klèman.",
+          "Bon sèvis depi nan kòmansman rive nan fen. Ekip la te atantif epi yo te asire mwen konprann chak pati nan pwosesis la. Mwen vrèman apresye jan yo te fè tout bagay fasil pou mwen.",
       },
       {
-        name: "Robert Hayes",
-        role: "Kliyan Medicare",
+        name: "Marie Louise",
+        role: "Kliyan",
         text:
-          "Fè 65 an te sanble konplike jiskaske ekip yo te esplike Medicare Advantage, plan Sipleman ak Pati D nan yon lang senp. Mwen te santi m enfòme, pa prese.",
+          "Mwen kontan anpil ak èd mwen te resevwa a. Yo te gen pasyans, yo te eksplike tout bagay aklè, epi yo te fè swivi avè m apre. Mwen ta rekòmande yo bay nenpòt moun k ap chèche sipò pou asirans sante.",
       },
       {
         name: "Jason Larson",
         role: "Konsiltan Endepandan",
         text:
           "Renouvlman mwen an te gen gwo chanjman nan prim lan, epi yo te remake detay mwen pa t ap wè poukont mwen. Revizyon sa a te sove m lajan epi amelyore kouveti mwen.",
-      },
-      {
-        name: "Emily Harrison",
-        role: "Nouvo Pwopriyetè Kay",
-        text:
-          "Mwen te vini pou chèche asirans sante epi mwen te jwenn bon gid sou dant, vizyon ak asirans lavi tou. Tout pwosesis la te santi l onèt ak sipòtif.",
       },
     ],
   },

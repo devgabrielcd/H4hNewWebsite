@@ -1152,40 +1152,34 @@ const en = {
     breadcrumb: "Testimonials",
     items: [
       {
-        name: "Daniel Brooks",
-        role: "Small Business Owner",
+        name: "Francene Mitial",
+        role: "Client",
         text:
-          "They helped me compare employee benefit options in a way that finally made sense. We found a plan structure that worked for both my budget and my team.",
+          "Everything was beautifully done and the enrollment process ended well. Formidable experience, it was a very nice exchange between the agent and I to achieve this; this help was so needed, I must say necessary. Anyway, we're waiting for the follow-up so I can have the chance to go see the doctor. Thank you very much for sharing the information with me. Hats off!",
       },
       {
-        name: "Angela Wilson",
-        role: "Freelance Designer",
+        name: "Christele Saint Jean",
+        role: "Client",
         text:
-          "I was overwhelmed trying to choose coverage on my own. Their agent walked me through premiums, prescriptions, and doctor networks with real patience.",
+          "I'm thrilled I chose H4H to assist with my health insurance process. It was a joy to see how warmly the team welcomed and guided me. Everything was resolved quickly, and I especially value that even if you only speak Creole, they understand and guide you through. They never left me alone, always checking to ensure everything went smoothly, confirming I received my card, and explained every detail I didn't understand. I have no complaints, only gratitude for the amazing initiative to help every Haitian in our community access these services fully. More people should know about this exceptional service. Thank you, H4H team, for supporting our community!",
       },
       {
-        name: "Melissa Carter",
-        role: "Parent of Three",
+        name: "Jean Robert",
+        role: "Client",
         text:
-          "We needed family coverage that kept our pediatrician in network and did not crush our monthly budget. They narrowed the options quickly and clearly.",
+          "Great service from start to finish. The team was attentive and made sure I understood every part of the process. I really appreciate how easy they made everything for me.",
       },
       {
-        name: "Robert Hayes",
-        role: "Medicare Client",
+        name: "Marie Louise",
+        role: "Client",
         text:
-          "Turning 65 felt complicated until their team explained Medicare Advantage, Supplement plans, and Part D in plain English. I felt informed instead of rushed.",
+          "I'm very happy with the help I received. They were patient, explained everything clearly, and followed up with me after. I would recommend them to anyone looking for support with health insurance.",
       },
       {
         name: "Jason Larson",
         role: "Self-Employed Consultant",
         text:
           "My renewal had major premium changes, and they caught details I would have missed on my own. That review saved me money and improved my coverage.",
-      },
-      {
-        name: "Emily Harrison",
-        role: "New Homeowner",
-        text:
-          "I came in looking for health insurance and ended up getting smart guidance on dental, vision, and life coverage too. The whole process felt honest and supportive.",
       },
     ],
   },

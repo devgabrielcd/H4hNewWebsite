@@ -43,12 +43,11 @@ const ctaServiceIcons = [
 ];
 
 const testimonialImages = [
-  "/assets/img/person/person-m-9.webp",
-  "/assets/img/person/person-f-5.webp",
   "/assets/img/person/person-f-12.webp",
+  "/assets/img/person/person-f-5.webp",
   "/assets/img/person/person-m-12.webp",
-  "/assets/img/person/person-m-13.webp",
   "/assets/img/person/person-f-13.webp",
+  "/assets/img/person/person-m-13.webp",
 ];
 
 export default async function IndexPage({ params }) {
@@ -376,7 +375,6 @@ export default async function IndexPage({ params }) {
                   />
                   <div>
                     <h3>{item.name}</h3>
-                    <h4>{item.role}</h4>
                   </div>
                 </div>
               </article>
