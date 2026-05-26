@@ -42,19 +42,20 @@ const ctaServiceIcons = [
   "fas fa-shield-alt",
 ];
 
-const testimonialImages = [
-  "/assets/img/person/person-f-12.webp",
-  "/assets/img/person/person-f-5.webp",
-  "/assets/img/person/person-m-12.webp",
-  "/assets/img/person/person-f-13.webp",
-  "/assets/img/person/person-m-13.webp",
-];
+// const testimonialImages = [
+//   "/assets/img/person/person-f-12.webp",
+//   "/assets/img/person/person-f-5.webp",
+//   "/assets/img/person/person-m-12.webp",
+//   "/assets/img/person/person-f-13.webp",
+//   "/assets/img/person/person-m-13.webp",
+// ];
 
 export default async function IndexPage({ params }) {
   const { lang = "en" } = await params;
   const home = getHomeDictionary(lang);
   const appointment = getAppointmentDictionary(lang);
   const testimonials = getTestimonialsDictionary(lang);
+  const visibleTestimonials = testimonials.items.filter((item) => item.name !== "Jason Larson");
 
   return (
     <main className="main">
@@ -91,7 +92,7 @@ export default async function IndexPage({ params }) {
                       locale={lang}
                     />
                     <a
-                      href="https://www.youtube.com/watch?v=Y7f98aduVJ8"
+                      href="#"
                       className="btn btn-secondary glightbox"
                     >
                       <i className="bi bi-play-circle"></i>
@@ -353,7 +354,7 @@ export default async function IndexPage({ params }) {
         </div>
         <div className="container" data-aos="fade-up" data-aos-delay="100">
           <div className="home-testimonials-carousel" aria-label={testimonials.title}>
-            {testimonials.items.map((item, index) => (
+            {visibleTestimonials.map((item) => (
               <article className="testimonial-item home-testimonial-card" key={item.name}>
                 <div className="stars" aria-hidden="true">
                   <i className="bi bi-star-fill"></i>
@@ -367,12 +368,16 @@ export default async function IndexPage({ params }) {
                   <span>{item.text}</span>
                 </p>
                 <div className="testimonial-person">
-                  <img
-                    src={testimonialImages[index]}
-                    className="testimonial-img"
-                    alt={item.name}
-                    loading="lazy"
-                  />
+                  {/*
+                    Restore this block when real client photos are ready,
+                    and change the map callback above to (item, index):
+                    <img
+                      src={testimonialImages[index]}
+                      className="testimonial-img"
+                      alt={item.name}
+                      loading="lazy"
+                    />
+                  */}
                   <div>
                     <h3>{item.name}</h3>
                   </div>
@@ -409,7 +414,7 @@ export default async function IndexPage({ params }) {
               <div className="col-lg-6">
                 <div className="hero-image" data-aos="zoom-in" data-aos-delay="300">
                   <img
-                    src="/assets/img/health/showcase-2.webp"
+                    src="/assets/img/health/H4hOffice.png"
                     alt={home.cta.imageAlt}
                     className="img-fluid"
                   />
