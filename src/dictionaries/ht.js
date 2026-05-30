@@ -6,6 +6,7 @@ const ht = {
       coverageOptions: "Opsyon Kouveti",
       plans: "Plan yo",
       resources: "Resous",
+      selfEnrollment: "Enskripsyon Pa Ou",
       departmentDetails: "Detay Kouveti",
       serviceDetails: "Detay Svis",
       appointment: "Randevou",
@@ -1568,6 +1569,98 @@ const ht = {
       "Kòmanse isit la lè ou bezwen yon nouvo paj pou edikasyon sou benefis, kanpay enskripsyon oswa kontni sip kliyan.",
     bodyText:
       "Modèl baz sa a pare pou adapte nan yon paj pèsonalize sou sijè asirans sante, sèvis ki an vedèt, FAQ oswa kontni pou jenere kontak.",
+  },
+  selfEnrollment: {
+    home: {
+      title: "Enskripsyon Pa Ou",
+      description:
+        "Kòmanse dirèkteman ak paj enskripsyon patnè nou yo pou jwenn opsyon pri rapid pou kouvèti dantè, vizyon ak sante.",
+      partners: [
+        { name: "One Share", href: "/self-enrollment/one-share", logo: "/assets/img/partners/oneshare-logo.svg" },
+        { name: "Ameritas", href: "/self-enrollment/ameritas", logo: "/assets/img/partners/ameritas-logo.png" },
+        { name: "NCD", href: "/self-enrollment/ncd", logo: "/assets/img/partners/ncd-logo.svg" },
+      ],
+    },
+    partners: {
+      oneShare: {
+        name: "One Share",
+        heading: "Enskripsyon One Share Pa Ou",
+        intro:
+          "Kòmanse yon demann pri OneShare Health ak kèk enfòmasyon senp sou kay la, ansanm ak gid ekip H4H la lè ou bezwen li.",
+        eyebrow: "Patnè pataj swen sante",
+        title: "Jwenn yon pri OneShare nan yon pwosesis ki gide epi ki fasil.",
+        description:
+          "OneShare konsantre sou kantite moun nan fanmi an, eta kote ou rete, ak laj pou ede manm yo kòmanse konpare opsyon pwogram pataj swen sante rapidman.",
+        primaryCta: "Kòmanse Enskripsyon OneShare",
+        imageAlt: "Biwo modèn pou gid sou kouvèti sante",
+        features: [
+          {
+            title: "Kòmanse Pri Rapid",
+            text: "Kòmanse ak kèk detay sou kay la anvan ou revize opsyon pwogram yo.",
+          },
+          {
+            title: "Santre sou Fanmi",
+            text: "Konpare chwa yo selon kantite moun nan fanmi an, kote ou rete, ak laj manm yo.",
+          },
+          {
+            title: "Sipò H4H",
+            text: "Mande ekip nou an èd anvan oswa apre ou kontinye ak enskripsyon pa ou.",
+          },
+        ],
+      },
+      ameritas: {
+        name: "Ameritas",
+        heading: "Enskripsyon Dantè Ameritas Pa Ou",
+        intro:
+          "Eksplore opsyon dantè ak vizyon Ameritas atravè yon paj patnè H4H ki fèt pou demann pri rapid.",
+        eyebrow: "Patnè dantè ak vizyon",
+        title: "Kouvèti dantè abòdab ki apiye pa Ameritas.",
+        description:
+          "Plan Ameritas yo ka ede moun ak fanmi chèche asirans dantè ak vizyon nan zòn yo, revize aksè ak founisè yo, epi mande yon pri ak etap ki klè.",
+        primaryCta: "Jwenn Pri Ameritas Ou",
+        imageAlt: "Randevou swen dantè",
+        features: [
+          {
+            title: "Plan Dantè",
+            text: "Revize opsyon pou vizit prevantif, sèvis debaz, ak pi gwo bezwen dantè.",
+          },
+          {
+            title: "Opsyon Vizyon",
+            text: "Gade kouvèti ki ka ede ak egzamen je, ankadreman, lantiy ak kontak.",
+          },
+          {
+            title: "Chèche Founisè",
+            text: "Sèvi ak zouti Ameritas yo pou verifye founisè dantè ak vizyon anvan ou enskri.",
+          },
+        ],
+      },
+      ncd: {
+        name: "NCD",
+        heading: "Enskripsyon NCD Pa Ou",
+        intro:
+          "Kòmanse enskripsyon dantè oswa vizyon NCD ak gid yon ajan ansanm ak sipò pou chèche founisè.",
+        eyebrow: "Patnè dantè ak vizyon",
+        title: "Enskri ak sipò dantè ak vizyon NCD.",
+        description:
+          "Enskripsyon NCD konsantre sou benefis dantè ak vizyon, zouti pou chèche founisè, ak aksè ak èd ajan pou manm ki pare pou avanse.",
+        primaryCta: "Kòmanse Enskripsyon NCD",
+        imageAlt: "Konsiltasyon benefis vizyon",
+        features: [
+          {
+            title: "Pwosesis ID Ajan",
+            text: "Sèvi ak pwosesis enskripsyon NCD la lè yo mande yon kòd ajan.",
+          },
+          {
+            title: "Rezo Dantè",
+            text: "Chèche founisè dantè epi konprann aksè a anvan ou chwazi yon plan.",
+          },
+          {
+            title: "Rezo Vizyon",
+            text: "Revize disponiblite founisè vizyon pou egzamen, lantiy ak bezwen linèt.",
+          },
+        ],
+      },
+    },
   },
 };
 

@@ -6,6 +6,7 @@ const en = {
       coverageOptions: "Coverage Options",
       plans: "Plans",
       resources: "Resources",
+      selfEnrollment: "Self Enrollment",
       departmentDetails: "Department Details",
       serviceDetails: "Service Details",
       appointment: "Appointment",
@@ -1599,6 +1600,98 @@ const en = {
       "Start here when you need a new page for benefits education, enrollment campaigns, or client support content.",
     bodyText:
       "This starter layout is ready to be adapted into a custom page for health insurance topics, service highlights, FAQs, or lead-generation content.",
+  },
+  selfEnrollment: {
+    home: {
+      title: "Self Enrollment",
+      description:
+        "Start directly with our partner enrollment pages for fast dental, vision, and health coverage quote options.",
+      partners: [
+        { name: "One Share", href: "/self-enrollment/one-share", logo: "/assets/img/partners/oneshare-logo.svg" },
+        { name: "Ameritas", href: "/self-enrollment/ameritas", logo: "/assets/img/partners/ameritas-logo.png" },
+        { name: "NCD", href: "/self-enrollment/ncd", logo: "/assets/img/partners/ncd-logo.svg" },
+      ],
+    },
+    partners: {
+      oneShare: {
+        name: "One Share",
+        heading: "One Share Self Enrollment",
+        intro:
+          "Start a OneShare Health quote flow with simple household details and guidance from the H4H team when you need it.",
+        eyebrow: "Healthcare sharing partner",
+        title: "Get a OneShare quote in a guided, low-friction flow.",
+        description:
+          "OneShare focuses on family size, state, and age information to help members begin comparing health care sharing program options quickly.",
+        primaryCta: "Start OneShare Enrollment",
+        imageAlt: "Modern office for health coverage guidance",
+        features: [
+          {
+            title: "Fast Quote Start",
+            text: "Begin with a few household details before reviewing program options.",
+          },
+          {
+            title: "Family-Focused",
+            text: "Compare choices around family size, location, and member age.",
+          },
+          {
+            title: "H4H Support",
+            text: "Ask our team for help before or after moving through self enrollment.",
+          },
+        ],
+      },
+      ameritas: {
+        name: "Ameritas",
+        heading: "Ameritas Dental Self Enrollment",
+        intro:
+          "Explore Ameritas dental and vision options through a H4H partner enrollment page built for quick quote requests.",
+        eyebrow: "Dental and vision partner",
+        title: "Affordable dental coverage backed by Ameritas.",
+        description:
+          "Ameritas plans can help individuals and families look for dental and vision insurance in their area, review provider access, and request a quote with clear next steps.",
+        primaryCta: "Get Your Ameritas Quote",
+        imageAlt: "Dental care appointment",
+        features: [
+          {
+            title: "Dental Plans",
+            text: "Review options for preventive visits, basic services, and larger dental needs.",
+          },
+          {
+            title: "Vision Options",
+            text: "Look at coverage that may support eye exams, frames, lenses, and contacts.",
+          },
+          {
+            title: "Provider Search",
+            text: "Use Ameritas tools to check dental and vision providers before enrolling.",
+          },
+        ],
+      },
+      ncd: {
+        name: "NCD",
+        heading: "NCD Self Enrollment",
+        intro:
+          "Start NCD dental or vision enrollment with agent-assisted guidance and provider search support.",
+        eyebrow: "Dental and vision partner",
+        title: "Enroll with NCD dental and vision support.",
+        description:
+          "NCD self enrollment centers on dental and vision benefits, provider lookup tools, and agent-assisted access for members who are ready to move forward.",
+        primaryCta: "Start NCD Enrollment",
+        imageAlt: "Vision benefits consultation",
+        features: [
+          {
+            title: "Agent ID Flow",
+            text: "Use the NCD enrollment process when an agent code is required.",
+          },
+          {
+            title: "Dental Network",
+            text: "Search dental providers and understand access before choosing a plan.",
+          },
+          {
+            title: "Vision Network",
+            text: "Review vision provider availability for exams, lenses, and eyewear needs.",
+          },
+        ],
+      },
+    },
   },
 };
 

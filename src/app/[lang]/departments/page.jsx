@@ -14,12 +14,12 @@ const departmentIcons = [
 ];
 
 const departmentImages = [
-  "/assets/img/health/cardiology-2.webp",
-  "/assets/img/health/neurology-3.webp",
-  "/assets/img/health/orthopedics-4.webp",
-  "/assets/img/health/pediatrics-2.webp",
-  "/assets/img/health/laboratory-3.webp",
-  "/assets/img/health/emergency-4.webp",
+  "/assets/img/health/cardiology-2.png",
+  "/assets/img/health/neurology-3.png",
+  "/assets/img/health/consultation-3.png",
+  "/assets/img/health/pediatrics-4.png",
+  "/assets/img/health/oncology-2.png",
+  "/assets/img/health/emergency-4.png",
 ];
 
 const departmentServiceSlugs = [

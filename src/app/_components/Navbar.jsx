@@ -7,6 +7,12 @@ import LanguageSelector from "./LanguageSelector";
 import { socialLinks } from "./socialLinks";
 import { getShellDictionary, localizePath, removeLocaleFromPathname } from "@/lib/i18n";
 
+const selfEnrollmentPages = [
+  { href: "/self-enrollment/one-share", label: "One Share" },
+  { href: "/self-enrollment/ameritas", label: "Ameritas" },
+  { href: "/self-enrollment/ncd", label: "NCD" },
+];
+
 function isActive(pathname, path) {
   return pathname === path ? "active" : undefined;
 }
@@ -16,11 +22,14 @@ export default function Navbar({ locale = "en" }) {
   const pathname = removeLocaleFromPathname(rawPathname);
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
   const [isResourcesOpen, setIsResourcesOpen] = useState(false);
+  const [isSelfEnrollmentOpen, setIsSelfEnrollmentOpen] = useState(false);
   const t = getShellDictionary(locale);
+  const selfEnrollmentActive = selfEnrollmentPages.some((item) => pathname === item.href);
 
   useEffect(() => {
     setIsMobileNavOpen(false);
     setIsResourcesOpen(false);
+    setIsSelfEnrollmentOpen(false);
     document.body.classList.remove("mobile-nav-active");
   }, [rawPathname]);
 
@@ -35,6 +44,7 @@ export default function Navbar({ locale = "en" }) {
   function closeMobileNav() {
     setIsMobileNavOpen(false);
     setIsResourcesOpen(false);
+    setIsSelfEnrollmentOpen(false);
   }
 
   function toggleMobileNav(event) {
@@ -50,6 +60,15 @@ export default function Navbar({ locale = "en" }) {
 
     event.preventDefault();
     setIsResourcesOpen((current) => !current);
+  }
+
+  function toggleSelfEnrollment(event) {
+    if (window.innerWidth >= 1200) {
+      return;
+    }
+
+    event.preventDefault();
+    setIsSelfEnrollmentOpen((current) => !current);
   }
 
   return (
@@ -131,14 +150,38 @@ export default function Navbar({ locale = "en" }) {
             <li className="dropdown">
               <a
                 href="#"
-                className={isResourcesOpen ? "active" : undefined}
+                className={isResourcesOpen || selfEnrollmentActive ? "active" : undefined}
                 onClick={toggleResources}
                 aria-expanded={isResourcesOpen}
               >
                 <span>{t.nav.resources}</span>{" "}
                 <i className="bi bi-chevron-down" />
               </a>
-              <ul className={isResourcesOpen ? "dropdown-active" : undefined}>
+              <ul className={`resources-menu${isResourcesOpen ? " dropdown-active" : ""}`}>
+                <li className={`dropdown self-enrollment-menu${selfEnrollmentActive ? " self-enrollment-menu-open" : ""}`}>
+                  <a
+                    href="#"
+                    className={isSelfEnrollmentOpen || selfEnrollmentActive ? "active" : undefined}
+                    onClick={toggleSelfEnrollment}
+                    aria-expanded={isSelfEnrollmentOpen}
+                  >
+                    <span>{t.nav.selfEnrollment}</span>{" "}
+                    <i className="bi bi-chevron-down" />
+                  </a>
+                  <ul className={`self-enrollment-submenu${isSelfEnrollmentOpen ? " dropdown-active" : ""}`}>
+                    {selfEnrollmentPages.map((item) => (
+                      <li key={item.href}>
+                        <Link
+                          href={localizePath(item.href, locale)}
+                          className={isActive(pathname, item.href)}
+                          onClick={closeMobileNav}
+                        >
+                          {item.label}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </li>
                 <li>
                   <Link
                     href={localizePath("/department-details", locale)}

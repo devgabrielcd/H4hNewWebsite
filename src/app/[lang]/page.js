@@ -1,5 +1,11 @@
 import QuoteModalLauncher from "@/app/_components/QuoteModalLauncher";
-import { getAppointmentDictionary, getHomeDictionary, getTestimonialsDictionary, localizePath } from "@/lib/i18n";
+import {
+  getAppointmentDictionary,
+  getHomeDictionary,
+  getSelfEnrollmentDictionary,
+  getTestimonialsDictionary,
+  localizePath,
+} from "@/lib/i18n";
 
 const featuredDepartmentIcons = [
   "fas fa-heartbeat",
@@ -19,12 +25,12 @@ const featuredServiceIcons = [
 ];
 
 const featuredServiceImages = [
-  "/assets/img/health/cardiology-2.webp",
-  "/assets/img/health/neurology-3.webp",
-  "/assets/img/health/orthopedics-1.webp",
-  "/assets/img/health/pediatrics-4.webp",
-  "/assets/img/health/oncology-2.webp",
-  "/assets/img/health/laboratory-3.webp",
+  "/assets/img/health/cardiology-2.png",
+  "/assets/img/health/neurology-3.png",
+  "/assets/img/health/orthopedics-1.png",
+  "/assets/img/health/pediatrics-4.png",
+  "/assets/img/health/oncology-2.png",
+  "/assets/img/health/laboratory-3.png",
 ];
 
 const featuredServiceSlugs = [
@@ -53,6 +59,7 @@ const ctaServiceIcons = [
 export default async function IndexPage({ params }) {
   const { lang = "en" } = await params;
   const home = getHomeDictionary(lang);
+  const selfEnrollment = getSelfEnrollmentDictionary(lang);
   const appointment = getAppointmentDictionary(lang);
   const testimonials = getTestimonialsDictionary(lang);
   const visibleTestimonials = testimonials.items.filter((item) => item.name !== "Jason Larson");
@@ -152,7 +159,7 @@ export default async function IndexPage({ params }) {
                 <div className="secondary-images">
                   <div className="small-image">
                     <img
-                      src="/assets/img/health/consultation-3.webp"
+                      src="/assets/img/health/consultation-3.png"
                       alt={home.about.images.secondaryAlt1}
                       className="img-fluid"
                     />
@@ -213,6 +220,30 @@ export default async function IndexPage({ params }) {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section id="self-enrollment" className="home-self-enrollment section">
+        <div className="container" data-aos="fade-up" data-aos-delay="100">
+          <div className="section-title">
+            <h2>{selfEnrollment.home.title}</h2>
+            <p>{selfEnrollment.home.description}</p>
+          </div>
+          <div className="row g-4 justify-content-center">
+            {selfEnrollment.home.partners.map((partner, index) => (
+              <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={150 + index * 50} key={partner.href}>
+                <a href={localizePath(partner.href, lang)} className="self-enrollment-partner">
+                  <img
+                    src={partner.logo}
+                    alt={partner.name}
+                    className="img-fluid"
+                  />
+                  <span>
+                    {partner.name} <i className="bi bi-arrow-right" />
+                  </span>
+                </a>
+              </div>
+            ))}
           </div>
         </div>
       </section>

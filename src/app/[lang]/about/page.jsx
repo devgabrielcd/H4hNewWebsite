@@ -52,11 +52,11 @@ export default async function AboutPage({ params }) {
               <div className="col-lg-7" data-aos="fade-right" data-aos-delay="200">
                 <div className="image-gallery">
                   <div className="main-image-container">
-                    <img src="/assets/img/health/facilities-3.webp" className="img-fluid main-image" alt={about.images.mainAlt} />
+                    <img src="/assets/img/health/facilities-3.png" className="img-fluid main-image" alt={about.images.mainAlt} />
                   </div>
                   <div className="secondary-images">
-                    <img src="/assets/img/health/staff-12.webp" className="img-fluid secondary-image" alt={about.images.secondaryAlt1} data-aos="zoom-in" data-aos-delay="400" />
-                    <img src="/assets/img/health/consultation-4.webp" className="img-fluid secondary-image" alt={about.images.secondaryAlt2} data-aos="zoom-in" data-aos-delay="500" />
+                    <img src="/assets/img/health/staff-12.png" className="img-fluid secondary-image" alt={about.images.secondaryAlt1} data-aos="zoom-in" data-aos-delay="400" />
+                    <img src="/assets/img/health/consultation-4.png" className="img-fluid secondary-image" alt={about.images.secondaryAlt2} data-aos="zoom-in" data-aos-delay="500" />
                   </div>
                 </div>
               </div>

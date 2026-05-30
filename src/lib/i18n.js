@@ -31,6 +31,10 @@ export function getHomeDictionary(locale = defaultLocale) {
   return getDictionary(locale).home;
 }
 
+export function getSelfEnrollmentDictionary(locale = defaultLocale) {
+  return getDictionary(locale).selfEnrollment;
+}
+
 export function getAboutDictionary(locale = defaultLocale) {
   return getDictionary(locale).about;
 }

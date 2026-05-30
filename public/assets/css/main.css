@@ -7477,3 +7477,55 @@ body.quote-modal-open {
   padding-bottom: 60px;
   /* Add your styles here */
 }
+
+/* Inline Resources submenu for partner self enrollment links */
+@media (min-width: 1200px) {
+  .navmenu .resources-menu {
+    min-width: 300px;
+  }
+
+  .navmenu .resources-menu .self-enrollment-menu>a {
+    gap: 22px;
+  }
+
+  .navmenu .resources-menu .self-enrollment-menu>a i {
+    transform: rotate(0deg);
+  }
+
+  .navmenu .resources-menu .self-enrollment-menu:hover>a i,
+  .navmenu .resources-menu .self-enrollment-menu-open>a i {
+    transform: rotate(180deg);
+  }
+
+  .navmenu .resources-menu .self-enrollment-menu>.self-enrollment-submenu,
+  .navmenu .dropdown .resources-menu .self-enrollment-menu>.self-enrollment-submenu {
+    position: static;
+    display: none;
+    visibility: visible;
+    opacity: 1;
+    top: auto;
+    left: auto;
+    margin: 0 0 8px;
+    padding: 0 0 6px;
+    min-width: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    transition: none;
+  }
+
+  .navmenu .resources-menu .self-enrollment-menu:hover>.self-enrollment-submenu,
+  .navmenu .resources-menu .self-enrollment-menu-open>.self-enrollment-submenu {
+    display: block;
+  }
+
+  .navmenu .resources-menu .self-enrollment-menu>.self-enrollment-submenu li {
+    min-width: 0;
+  }
+
+  .navmenu .resources-menu .self-enrollment-menu>.self-enrollment-submenu a {
+    padding: 9px 20px 9px 34px;
+    color: color-mix(in srgb, var(--nav-dropdown-color), transparent 12%);
+    font-size: 14px;
+  }
+}

@@ -6,6 +6,7 @@ const es = {
       coverageOptions: "Opciones de Cobertura",
       plans: "Planes",
       resources: "Recursos",
+      selfEnrollment: "Auto Inscripcion",
       departmentDetails: "Detalles de Cobertura",
       serviceDetails: "Detalles del Servicio",
       appointment: "Cita",
@@ -1569,6 +1570,98 @@ const es = {
       "Comienza aqui cuando necesites una nueva pagina para educacion sobre beneficios, campanas de inscripcion o contenido de apoyo al cliente.",
     bodyText:
       "Este layout base esta listo para adaptarse a una pagina personalizada sobre temas de seguro de salud, servicios destacados, preguntas frecuentes o contenido de generacion de prospectos.",
+  },
+  selfEnrollment: {
+    home: {
+      title: "Auto Inscripcion",
+      description:
+        "Comienza directamente con las paginas de inscripcion de nuestros socios para opciones rapidas de cotizacion de cobertura dental, vision y salud.",
+      partners: [
+        { name: "One Share", href: "/self-enrollment/one-share", logo: "/assets/img/partners/oneshare-logo.svg" },
+        { name: "Ameritas", href: "/self-enrollment/ameritas", logo: "/assets/img/partners/ameritas-logo.png" },
+        { name: "NCD", href: "/self-enrollment/ncd", logo: "/assets/img/partners/ncd-logo.svg" },
+      ],
+    },
+    partners: {
+      oneShare: {
+        name: "One Share",
+        heading: "Auto Inscripcion de One Share",
+        intro:
+          "Inicia el proceso de cotizacion de OneShare Health con datos simples del hogar y orientacion del equipo de H4H cuando la necesites.",
+        eyebrow: "Socio de programas de salud compartida",
+        title: "Obten una cotizacion de OneShare en un proceso guiado y sencillo.",
+        description:
+          "OneShare se enfoca en el tamano de la familia, el estado y la edad para ayudar a los miembros a comenzar a comparar opciones de programas de salud compartida rapidamente.",
+        primaryCta: "Iniciar Inscripcion de OneShare",
+        imageAlt: "Oficina moderna para orientacion de cobertura de salud",
+        features: [
+          {
+            title: "Inicio Rapido de Cotizacion",
+            text: "Comienza con algunos datos del hogar antes de revisar opciones de programas.",
+          },
+          {
+            title: "Enfoque Familiar",
+            text: "Compara opciones segun tamano de familia, ubicacion y edad de los miembros.",
+          },
+          {
+            title: "Apoyo de H4H",
+            text: "Pregunta a nuestro equipo antes o despues de avanzar con la auto inscripcion.",
+          },
+        ],
+      },
+      ameritas: {
+        name: "Ameritas",
+        heading: "Auto Inscripcion Dental de Ameritas",
+        intro:
+          "Explora opciones dentales y de vision de Ameritas mediante una pagina de socio de H4H creada para solicitudes rapidas de cotizacion.",
+        eyebrow: "Socio dental y de vision",
+        title: "Cobertura dental accesible respaldada por Ameritas.",
+        description:
+          "Los planes de Ameritas pueden ayudar a personas y familias a buscar seguro dental y de vision en su area, revisar acceso a proveedores y solicitar una cotizacion con pasos claros.",
+        primaryCta: "Obtener Cotizacion de Ameritas",
+        imageAlt: "Cita de cuidado dental",
+        features: [
+          {
+            title: "Planes Dentales",
+            text: "Revisa opciones para visitas preventivas, servicios basicos y necesidades dentales mayores.",
+          },
+          {
+            title: "Opciones de Vision",
+            text: "Consulta cobertura que puede apoyar examenes de la vista, monturas, lentes y contactos.",
+          },
+          {
+            title: "Busqueda de Proveedores",
+            text: "Usa las herramientas de Ameritas para revisar proveedores dentales y de vision antes de inscribirte.",
+          },
+        ],
+      },
+      ncd: {
+        name: "NCD",
+        heading: "Auto Inscripcion de NCD",
+        intro:
+          "Comienza la inscripcion dental o de vision de NCD con orientacion asistida por agente y apoyo para buscar proveedores.",
+        eyebrow: "Socio dental y de vision",
+        title: "Inscribete con apoyo dental y de vision de NCD.",
+        description:
+          "La auto inscripcion de NCD se centra en beneficios dentales y de vision, herramientas de busqueda de proveedores y acceso asistido por agente para miembros listos para avanzar.",
+        primaryCta: "Iniciar Inscripcion de NCD",
+        imageAlt: "Consulta de beneficios de vision",
+        features: [
+          {
+            title: "Flujo con ID de Agente",
+            text: "Usa el proceso de inscripcion de NCD cuando se requiera un codigo de agente.",
+          },
+          {
+            title: "Red Dental",
+            text: "Busca proveedores dentales y entiende el acceso antes de elegir un plan.",
+          },
+          {
+            title: "Red de Vision",
+            text: "Revisa disponibilidad de proveedores de vision para examenes, lentes y necesidades de anteojos.",
+          },
+        ],
+      },
+    },
   },
 };
 
