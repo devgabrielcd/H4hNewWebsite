@@ -1012,7 +1012,7 @@ const ht = {
         intro:
           "Konpare opsyon depans final ki fèt pou ede moun ou renmen yo ak depans fineray, antèman ak lòt bezwen finansye fen lavi.",
         breadcrumb: "Depans Final",
-        image: "/assets/img/health/laboratory-3.webp",
+        image: "/assets/img/health/laboratory-32.png",
         imageAlt: "Konsiltasyon depans final",
         tag: "Gid Depans Final",
         heroTitle: "Sip Pèsonalize pou Depans Final",

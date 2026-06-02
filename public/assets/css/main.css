@@ -3311,9 +3311,18 @@ section,
   justify-content: center;
 }
 
+.about .accreditation-section .accreditation-grid.accreditation-grid--single {
+  grid-template-columns: minmax(170px, 240px);
+  justify-content: center;
+}
+
 @media (max-width: 992px) {
   .about .accreditation-section .accreditation-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .about .accreditation-section .accreditation-grid.accreditation-grid--single {
+    grid-template-columns: minmax(170px, 240px);
   }
 }
 
@@ -3321,6 +3330,10 @@ section,
   .about .accreditation-section .accreditation-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
+  }
+
+  .about .accreditation-section .accreditation-grid.accreditation-grid--single {
+    grid-template-columns: minmax(170px, 240px);
   }
 }
 

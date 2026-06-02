@@ -1013,7 +1013,7 @@ const es = {
         intro:
           "Compara opciones disenadas para ayudar a tus seres queridos con costos funerarios, entierro y otras necesidades financieras de fin de vida.",
         breadcrumb: "Gastos Finales",
-        image: "/assets/img/health/laboratory-3.webp",
+        image: "/assets/img/health/laboratory-32.png",
         imageAlt: "Consulta de gastos finales",
         tag: "Orientacion de Gastos Finales",
         heroTitle: "Apoyo Personalizado de Gastos Finales",

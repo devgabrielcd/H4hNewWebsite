@@ -138,7 +138,7 @@ export default function Navbar({ locale = "en" }) {
                 {t.nav.coverageOptions}
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 href={localizePath("/services", locale)}
                 className={isActive(pathname, "/services")}
@@ -146,7 +146,7 @@ export default function Navbar({ locale = "en" }) {
               >
                 {t.nav.plans}
               </Link>
-            </li>
+            </li> */}
             <li className="dropdown">
               <a
                 href="#"
@@ -182,7 +182,7 @@ export default function Navbar({ locale = "en" }) {
                     ))}
                   </ul>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     href={localizePath("/department-details", locale)}
                     className={isActive(pathname, "/department-details")}
@@ -190,7 +190,7 @@ export default function Navbar({ locale = "en" }) {
                   >
                     {t.nav.departmentDetails}
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link
                     href={localizePath("/service-details", locale)}

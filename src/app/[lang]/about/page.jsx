@@ -128,12 +128,10 @@ export default async function AboutPage({ params }) {
             </div>
             <div className="row justify-content-center">
               <div className="col-lg-8">
-                <div className="accreditation-grid">
-                  {about.carriers.logos.map((alt, index) => (
-                    <div className="accreditation-item" data-aos="fade-up" data-aos-delay={100 + index * 50} key={alt}>
-                      <img src={`/assets/img/clients/client-${index + 1}.png`} className={`img-fluid accreditation-logo accreditation-logo--${["cigna","aetna","anthem","ambetter","florida-blue"][index]}`} alt={alt} />
-                    </div>
-                  ))}
+                <div className="accreditation-grid accreditation-grid--single">
+                  <div className="accreditation-item" data-aos="fade-up" data-aos-delay="100">
+                    <img src="/assets/img/clients/client-5.png" className="img-fluid accreditation-logo accreditation-logo--florida-blue" alt="Florida Blue" />
+                  </div>
                 </div>
               </div>
             </div>

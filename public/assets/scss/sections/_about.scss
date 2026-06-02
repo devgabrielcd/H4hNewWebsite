@@ -264,13 +264,26 @@
       align-items: center;
       justify-content: center;
 
+      &.accreditation-grid--single {
+        grid-template-columns: minmax(170px, 240px);
+        justify-content: center;
+      }
+
       @media (max-width: 992px) {
         grid-template-columns: repeat(3, 1fr);
+
+        &.accreditation-grid--single {
+          grid-template-columns: minmax(170px, 240px);
+        }
       }
 
       @media (max-width: 576px) {
         grid-template-columns: repeat(2, 1fr);
         gap: 1.5rem;
+
+        &.accreditation-grid--single {
+          grid-template-columns: minmax(170px, 240px);
+        }
       }
 
       .accreditation-item {

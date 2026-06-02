@@ -1011,7 +1011,7 @@ const en = {
         intro:
           "Compare final expense insurance options designed to help loved ones with funeral costs, burial expenses, and other end-of-life financial needs with simple, respectful guidance.",
         breadcrumb: "Final Expense",
-        image: "/assets/img/health/laboratory-3.webp",
+        image: "/assets/img/health/laboratory-32.png",
         imageAlt: "Final expense insurance consultation",
         tag: "Final Expense Guidance",
         heroTitle: "Personalized Final Expense Support",
