@@ -7,14 +7,6 @@ import {
   localizePath,
 } from "@/lib/i18n";
 
-const featuredDepartmentIcons = [
-  "fas fa-heartbeat",
-  "fa-solid fa-teeth",
-  "fas fa-eye",
-  "fas fa-band-aid",
-  "fa-solid fa-heart-circle-check",
-];
-
 const featuredServiceIcons = [
   "fas fa-heartbeat",
   "fas fa-band-aid",
@@ -67,27 +59,14 @@ export default async function IndexPage({ params }) {
   return (
     <main className="main">
       <section id="hero" className="hero section">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-5">
-              <div className="hero-image" data-aos="fade-right" data-aos-delay="100">
-                <img
-                  src="/assets/img/health/staff-7.png"
-                  alt={home.hero.imageAlt}
-                  className="img-fluid main-image"
-                />
-                <div className="floating-card stats-card" data-aos="fade-up" data-aos-delay="400">
-                  {home.hero.stats.map((stat) => (
-                    <div className="stat-item" key={stat.label}>
-                      <span className="number">{stat.number}</span>
-                      <span className="label">{stat.label}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-7">
-              <div className="hero-content" data-aos="fade-left" data-aos-delay="200">
+        <video className="hero-video" autoPlay muted loop playsInline>
+          <source src="/assets/hero/Herovideoh4h.mp4" type="video/mp4" />
+        </video>
+        <div className="hero-overlay"></div>
+        <div className="container hero-content-wrapper">
+          <div className="row">
+            <div className="col-lg-7 col-md-9">
+              <div className="hero-content" data-aos="fade-up" data-aos-delay="100">
                 <h1 className="hero-title">{home.hero.title}</h1>
                 <p className="hero-description">{home.hero.description}</p>
                 <div className="cta-section">
@@ -98,39 +77,15 @@ export default async function IndexPage({ params }) {
                       label={home.hero.primaryCta}
                       locale={lang}
                     />
-                    <a
-                      href="#"
-                      className="btn btn-secondary glightbox"
-                    >
-                      <i className="bi bi-play-circle"></i>
+                    <a href="#home-about" className="btn btn-outline-light">
+                      <i className="bi bi-arrow-down-circle"></i>
                       {home.hero.secondaryCta}
                     </a>
-                  </div>
-                  <div className="quick-actions">
-                    {home.hero.quickActions.map((label, index) => (
-                      <a href="#" className="action-link" key={label}>
-                        <i
-                          className={
-                            index === 0
-                              ? "bi bi-calendar-check"
-                              : index === 1
-                                ? "bi bi-chat-dots"
-                                : "bi bi-file-medical"
-                          }
-                        ></i>
-                        <span>{label}</span>
-                      </a>
-                    ))}
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="background-elements">
-          <div className="bg-shape shape-1"></div>
-          <div className="bg-shape shape-2"></div>
-          <div className="bg-pattern"></div>
         </div>
       </section>
 

@@ -1357,12 +1357,12 @@ const ht = {
     ],
   },
   terms: {
-    title: "Tèm",
+    title: "Tèm Sèvis yo",
     intro:
       "Revize tèm ki aplike lè w ap itilize sit nou an, mande gid sou asirans oswa kominike ak ekip nou an ak materyèl sèvis yo.",
     breadcrumb: "Tèm",
     updated: "Dènye Mizajou: 27 Fevriye 2025",
-    headerTitle: "Tèm Sèvis yo",
+    headerTitle: "Apèsi sou Akò a",
     headerText:
       "Tanpri revize tèm sa yo ak anpil atansyon anvan ou itilize sit nou an oswa mande gid ki gen rapò ak asirans.",
     sections: [
@@ -1449,12 +1449,13 @@ const ht = {
     contactLink: "Kontakte Sip",
   },
   privacy: {
-    title: "Konfidansyalite",
+    title: "Règleman Konfidansyalite",
     intro:
       "Aprann kijan nou ranmase, itilize, estoke ak pwoteje enfòmasyon ki pataje atravè demann pri, fòm konsiltasyon ak lòt entèraksyon sou sit nou an.",
     breadcrumb: "Konfidansyalite",
+    updated: "Dènye Mizajou: 27 Fevriye 2025",
     updatedLabel: "Dènye mizajou:",
-    updatedDate: "15 Desanm 2024",
+    updatedDate: "27 Fevriye 2025",
     sections: {
       collected: {
         title: "Enfòmasyon nou Ranmase",

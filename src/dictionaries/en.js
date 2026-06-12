@@ -11,7 +11,7 @@ const en = {
       serviceDetails: "Service Details",
       appointment: "Appointment",
       testimonials: "Testimonials",
-      faq: "Frequently Asked Questions",
+      faq: "FAQ",
       gallery: "Gallery",
       terms: "Terms",
       privacy: "Privacy",
@@ -1388,12 +1388,12 @@ const en = {
     ],
   },
   terms: {
-    title: "Terms",
+    title: "Terms of Service",
     intro:
       "Review the terms that apply when using our website, requesting insurance guidance, or interacting with our team and service materials.",
     breadcrumb: "Terms",
     updated: "Last Updated: February 27, 2025",
-    headerTitle: "Terms of Service",
+    headerTitle: "Agreement Overview",
     headerText:
       "Please review these terms carefully before using our website or requesting insurance-related guidance.",
     sections: [
@@ -1480,12 +1480,13 @@ const en = {
     contactLink: "Contact Support",
   },
   privacy: {
-    title: "Privacy",
+    title: "Privacy Policy",
     intro:
       "Learn how we collect, use, store, and protect information shared through quote requests, consultation forms, and other interactions on our website.",
     breadcrumb: "Privacy",
+    updated: "Last Updated: February 27, 2025",
     updatedLabel: "Last updated:",
-    updatedDate: "December 15, 2024",
+    updatedDate: "February 27, 2025",
     sections: {
       collected: {
         title: "Information We Collect",

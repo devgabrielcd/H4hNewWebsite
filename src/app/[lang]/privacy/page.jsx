@@ -22,6 +22,7 @@ export default async function PrivacyPage({ params }) {
               <div className="col-lg-8">
                 <h1 className="heading-title">{privacy.title}</h1>
                 <p className="mb-0">{privacy.intro}</p>
+                <span className="last-updated">{privacy.updated}</span>
               </div>
             </div>
           </div>
@@ -40,10 +41,6 @@ export default async function PrivacyPage({ params }) {
           <div className="row">
             <div className="col-lg-8 mx-auto">
               <div className="privacy-content">
-                <div className="last-updated" data-aos="fade-up" data-aos-delay="200">
-                  <p><strong>{privacy.updatedLabel}</strong> {privacy.updatedDate}</p>
-                </div>
-
                 <div className="privacy-section" data-aos="fade-up" data-aos-delay="300">
                   <h3>{privacy.sections.collected.title}</h3>
                   <p>{privacy.sections.collected.text}</p>

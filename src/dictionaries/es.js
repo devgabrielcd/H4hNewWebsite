@@ -3,7 +3,7 @@ const es = {
     nav: {
       home: "Inicio",
       about: "Sobre Nosotros",
-      coverageOptions: "Opciones de Cobertura",
+      coverageOptions: "Coberturas",
       plans: "Planes",
       resources: "Recursos",
       selfEnrollment: "Auto Inscripcion",
@@ -1358,12 +1358,12 @@ const es = {
     ],
   },
   terms: {
-    title: "Terminos",
+    title: "Terminos del Servicio",
     intro:
       "Revisa los terminos que aplican al usar nuestro sitio web, solicitar orientacion de seguros o interactuar con nuestro equipo y materiales de servicio.",
     breadcrumb: "Terminos",
     updated: "Ultima actualizacion: 27 de febrero de 2025",
-    headerTitle: "Terminos del Servicio",
+    headerTitle: "Resumen del Acuerdo",
     headerText:
       "Por favor revisa estos terminos cuidadosamente antes de usar nuestro sitio web o solicitar orientacion relacionada con seguros.",
     sections: [
@@ -1450,12 +1450,13 @@ const es = {
     contactLink: "Contactar Soporte",
   },
   privacy: {
-    title: "Privacidad",
+    title: "Politica de Privacidad",
     intro:
       "Aprende como recopilamos, usamos, almacenamos y protegemos la informacion compartida por solicitudes de cotizacion, formularios de consulta y otras interacciones en nuestro sitio web.",
     breadcrumb: "Privacidad",
+    updated: "Ultima actualizacion: 27 de febrero de 2025",
     updatedLabel: "Ultima actualizacion:",
-    updatedDate: "15 de diciembre de 2024",
+    updatedDate: "27 de febrero de 2025",
     sections: {
       collected: {
         title: "Informacion que Recopilamos",

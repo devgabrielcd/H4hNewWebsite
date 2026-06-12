@@ -72,7 +72,7 @@ export default function Navbar({ locale = "en" }) {
   }
 
   return (
-    <header id="header" className={`header fixed-top${isMobileNavOpen ? " is-mobile-nav-open" : ""}`}>
+    <header id="header" className={`header fixed-top${isMobileNavOpen ? " is-mobile-nav-open" : ""}${pathname === "/" ? " video-hero-page" : ""}`}>
       <div className="topbar d-flex align-items-center">
         <div className="container d-flex align-items-center justify-content-center justify-content-md-between">
           <div className="contact-info d-flex align-items-center">
@@ -105,11 +105,12 @@ export default function Navbar({ locale = "en" }) {
         </div>
       </div>
 
+      <div className="branding-bar">
       <div className="container branding position-relative d-flex align-items-center justify-content-between">
         <Link href={localizePath("/", locale)} className="logo d-flex align-items-center">
           <img src="/HHlogoNoBg3.png" alt="H4H Insurance" />
           <h1 className="sitename">
-            <span>Health4Haitians</span>
+            <span>Health<span className="logo-four">4</span>Haitians</span>
           </h1>
         </Link>
 
@@ -138,19 +139,35 @@ export default function Navbar({ locale = "en" }) {
                 {t.nav.coverageOptions}
               </Link>
             </li>
-            {/* <li>
-              <Link
-                href={localizePath("/services", locale)}
-                className={isActive(pathname, "/services")}
-                onClick={closeMobileNav}
-              >
-                {t.nav.plans}
-              </Link>
-            </li> */}
             <li className="dropdown">
               <a
                 href="#"
-                className={isResourcesOpen || selfEnrollmentActive ? "active" : undefined}
+                className={selfEnrollmentActive ? "active" : undefined}
+                onClick={toggleSelfEnrollment}
+                aria-expanded={isSelfEnrollmentOpen}
+              >
+                <span>{t.nav.selfEnrollment}</span>{" "}
+                <i className="bi bi-chevron-down" />
+              </a>
+              <ul className={isSelfEnrollmentOpen ? "dropdown-active" : ""}>
+                {selfEnrollmentPages.map((item) => (
+                  <li key={item.href}>
+                    <Link
+                      href={localizePath(item.href, locale)}
+                      className={isActive(pathname, item.href)}
+                      onClick={closeMobileNav}
+                    >
+                      <i className="bi bi-arrow-right-short dropdown-sub-icon" />
+                      {item.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </li>
+            <li className="dropdown">
+              <a
+                href="#"
+                className={isResourcesOpen ? "active" : undefined}
                 onClick={toggleResources}
                 aria-expanded={isResourcesOpen}
               >
@@ -158,45 +175,13 @@ export default function Navbar({ locale = "en" }) {
                 <i className="bi bi-chevron-down" />
               </a>
               <ul className={`resources-menu${isResourcesOpen ? " dropdown-active" : ""}`}>
-                <li className={`dropdown self-enrollment-menu${selfEnrollmentActive ? " self-enrollment-menu-open" : ""}`}>
-                  <a
-                    href="#"
-                    className={isSelfEnrollmentOpen || selfEnrollmentActive ? "active" : undefined}
-                    onClick={toggleSelfEnrollment}
-                    aria-expanded={isSelfEnrollmentOpen}
-                  >
-                    <span>{t.nav.selfEnrollment}</span>{" "}
-                    <i className="bi bi-chevron-down" />
-                  </a>
-                  <ul className={`self-enrollment-submenu${isSelfEnrollmentOpen ? " dropdown-active" : ""}`}>
-                    {selfEnrollmentPages.map((item) => (
-                      <li key={item.href}>
-                        <Link
-                          href={localizePath(item.href, locale)}
-                          className={isActive(pathname, item.href)}
-                          onClick={closeMobileNav}
-                        >
-                          {item.label}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </li>
-                {/* <li>
-                  <Link
-                    href={localizePath("/department-details", locale)}
-                    className={isActive(pathname, "/department-details")}
-                    onClick={closeMobileNav}
-                  >
-                    {t.nav.departmentDetails}
-                  </Link>
-                </li> */}
                 <li>
                   <Link
                     href={localizePath("/service-details", locale)}
                     className={isActive(pathname, "/service-details")}
                     onClick={closeMobileNav}
                   >
+                    <i className="bi bi-grid-3x3-gap dropdown-item-icon" />
                     {t.nav.serviceDetails}
                   </Link>
                 </li>
@@ -206,6 +191,7 @@ export default function Navbar({ locale = "en" }) {
                     className={isActive(pathname, "/testimonials")}
                     onClick={closeMobileNav}
                   >
+                    <i className="bi bi-chat-quote dropdown-item-icon" />
                     {t.nav.testimonials}
                   </Link>
                 </li>
@@ -215,29 +201,23 @@ export default function Navbar({ locale = "en" }) {
                     className={isActive(pathname, "/refer-a-friend")}
                     onClick={closeMobileNav}
                   >
+                    <i className="bi bi-people dropdown-item-icon" />
                     {t.nav.referFriend}
                   </Link>
                 </li>
                 <li>
                   <Link href={localizePath("/faq", locale)} className={isActive(pathname, "/faq")} onClick={closeMobileNav}>
+                    <i className="bi bi-question-circle dropdown-item-icon" />
                     {t.nav.faq}
                   </Link>
                 </li>
-                {/* <li>
-                  <Link
-                    href={localizePath("/gallery", locale)}
-                    className={isActive(pathname, "/gallery")}
-                    onClick={closeMobileNav}
-                  >
-                    {t.nav.gallery}
-                  </Link>
-                </li> */}
-                <li>
+                <li className="dropdown-divider-item">
                   <Link
                     href={localizePath("/terms", locale)}
                     className={isActive(pathname, "/terms")}
                     onClick={closeMobileNav}
                   >
+                    <i className="bi bi-file-earmark-text dropdown-item-icon" />
                     {t.nav.terms}
                   </Link>
                 </li>
@@ -247,6 +227,7 @@ export default function Navbar({ locale = "en" }) {
                     className={isActive(pathname, "/privacy")}
                     onClick={closeMobileNav}
                   >
+                    <i className="bi bi-shield-lock dropdown-item-icon" />
                     {t.nav.privacy}
                   </Link>
                 </li>
@@ -278,6 +259,7 @@ export default function Navbar({ locale = "en" }) {
             {t.nav.appointment}
           </Link>
         </div>
+      </div>
       </div>
     </header>
   );

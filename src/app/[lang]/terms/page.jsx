@@ -18,6 +18,7 @@ export default async function TermsPage({ params }) {
               <div className="col-lg-8">
                 <h1 className="heading-title">{terms.title}</h1>
                 <p className="mb-0">{terms.intro}</p>
+                <span className="last-updated">{terms.updated}</span>
               </div>
             </div>
           </div>
@@ -34,7 +35,6 @@ export default async function TermsPage({ params }) {
       <section id="terms-of-service" className="terms-of-service section">
         <div className="container" data-aos="fade-up">
           <div className="tos-header text-center" data-aos="fade-up">
-            <span className="last-updated">{terms.updated}</span>
             <h2>{terms.headerTitle}</h2>
             <p>{terms.headerText}</p>
           </div>
