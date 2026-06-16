@@ -392,8 +392,8 @@ h6 {
   }
 
   .header .navmenu {
-    margin: 0 12px 0 16px;
-    order: 2;
+    margin: 0 0 0 auto;
+    order: 4;
     flex-shrink: 0;
   }
 }
@@ -532,16 +532,18 @@ body:not(.scrolled) .header.video-hero-page .logo h1 .logo-four {
   color: transparent !important;
 }
 
-/* Nav links: white text on glass */
-body:not(.scrolled) .header.video-hero-page .navmenu > ul > li > a,
-body:not(.scrolled) .header.video-hero-page .navmenu > ul > li > a:focus {
-  color: rgba(255, 255, 255, 0.92);
-}
+/* Nav links: white text on glass — desktop only (mobile popup has white bg, needs dark text) */
+@media (min-width: 1200px) {
+  body:not(.scrolled) .header.video-hero-page .navmenu > ul > li > a,
+  body:not(.scrolled) .header.video-hero-page .navmenu > ul > li > a:focus {
+    color: rgba(255, 255, 255, 0.92);
+  }
 
-body:not(.scrolled) .header.video-hero-page .navmenu > ul > li:hover > a,
-body:not(.scrolled) .header.video-hero-page .navmenu > ul > li > .active,
-body:not(.scrolled) .header.video-hero-page .navmenu > ul > li > .active:focus {
-  color: #fff;
+  body:not(.scrolled) .header.video-hero-page .navmenu > ul > li:hover > a,
+  body:not(.scrolled) .header.video-hero-page .navmenu > ul > li > .active,
+  body:not(.scrolled) .header.video-hero-page .navmenu > ul > li > .active:focus {
+    color: #fff;
+  }
 }
 
 /* Dropdown links always dark */
@@ -794,19 +796,32 @@ body:not(.scrolled) .header.video-hero-page .btn-getstarted:hover {
     z-index: 9997;
   }
 
-  .navmenu ul {
-    display: none;
+  .navmenu > ul {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(110%);
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+                opacity 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+                visibility 0.35s;
     list-style: none;
     position: absolute;
-    inset: 60px 20px 20px 20px;
+    top: calc(100% + 8px);
+    left: 80px;
+    right: 0;
+    bottom: auto;
+    height: auto;
+    max-height: calc(100vh - 140px);
     padding: 10px 0;
     margin: 0;
-    border-radius: 6px;
-    background-color: var(--nav-mobile-background-color);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
     overflow-y: auto;
-    transition: 0.3s;
     z-index: 9998;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.14), 0 2px 8px rgba(0, 0, 0, 0.08);
   }
 
   .navmenu a,
@@ -882,67 +897,26 @@ body:not(.scrolled) .header.video-hero-page .btn-getstarted:hover {
     overflow: hidden;
   }
 
-  .header.is-mobile-nav-open {
-    inset: 0;
-    height: 100dvh;
-    background: rgba(33, 37, 41, 0.8);
-    backdrop-filter: none;
-    -webkit-backdrop-filter: none;
-  }
-
-  .header.is-mobile-nav-open .topbar,
-  .header.is-mobile-nav-open .branding > .logo,
-  .header.is-mobile-nav-open .header-actions {
-    visibility: hidden;
-  }
-
-  .header.is-mobile-nav-open .branding-bar {
-    padding: 0 !important;
-    height: 100%;
-  }
-
-  .header.is-mobile-nav-open .branding {
-    position: static !important;
-    height: 100%;
-    max-width: none;
-    padding: 0;
-    background: transparent !important;
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
-    border: none !important;
-    border-radius: 0 !important;
-  }
-
+  /* X button stays in normal flow — just ensure dark color */
   .mobile-nav-active .mobile-nav-toggle,
   .navmenu.is-mobile-open .mobile-nav-toggle {
-    color: #fff;
-    position: fixed;
-    font-size: 32px;
-    top: 15px;
-    right: 15px;
-    margin-right: 0;
-    z-index: 9999;
+    color: #1a1a1a;
   }
 
+  /* Navmenu is no longer a full-screen overlay — stays in flex flow */
   .mobile-nav-active .navmenu,
   .navmenu.is-mobile-open {
-    position: absolute;
-    overflow: hidden;
-    inset: 0;
-    background: rgba(33, 37, 41, 0.8);
-    transition: 0.3s;
+    position: static;
+    overflow: visible;
+    background: transparent;
   }
 
-  .mobile-nav-active .navmenu>ul,
-  .navmenu.is-mobile-open>ul {
-    display: block;
-    position: fixed;
-    top: 76px;
-    left: 20px;
-    right: 20px;
-    bottom: 20px;
-    height: auto;
-    max-height: none;
+  /* Main menu card slides in from the right */
+  .mobile-nav-active .navmenu > ul,
+  .navmenu.is-mobile-open > ul {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 

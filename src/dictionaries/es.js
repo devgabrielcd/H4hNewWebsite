@@ -82,7 +82,7 @@ const es = {
         { number: "25K+", label: "Familias Cubiertas" },
         { number: "98%", label: "Nivel de Satisfaccion" },
       ],
-      title: "Seguro medico, Medicare y seguro de vida accesibles para familias haitianas en Florida",
+      title: "Seguro de Salud, Medicare y Vida para Familias Haitianas en Florida",
       description:
         "Ayudamos a familias haitiano-floridianas, adultos mayores y personas a encontrar cobertura de seguro confiable para salud, Medicare, vida a termino, vida entera, IUL, dental, vision y proteccion contra accidentes. Recibe orientacion clara, compara tus opciones y elige un plan que se ajuste a las necesidades y presupuesto de tu familia.",
       primaryCta: "Obtener Cotizacion Gratis",
