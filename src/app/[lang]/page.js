@@ -178,7 +178,7 @@ export default async function IndexPage({ params }) {
           </div>
         </div>
       </section>
-      <section id="self-enrollment" className="home-self-enrollment section">
+      {/* <section id="self-enrollment" className="home-self-enrollment section">
         <div className="container" data-aos="fade-up" data-aos-delay="100">
           <div className="section-title">
             <h2>{selfEnrollment.home.title}</h2>
@@ -201,7 +201,7 @@ export default async function IndexPage({ params }) {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
       <section id="featured-departments" className="featured-departments section">
         <div className="container section-title" data-aos="fade-up">
           <h2>{home.featuredDepartments.title}</h2>
@@ -440,6 +440,21 @@ export default async function IndexPage({ params }) {
               ))}
             </div>
           </div>
+
+          <section
+            className="florida-blue-section"
+            aria-label="Florida Blue"
+            data-aos="fade-up"
+            data-aos-delay="550"
+          >
+            <img
+              src="/assets/img/clients/client-5.png"
+              alt="Florida Blue"
+              width="300"
+              height="144"
+              loading="lazy"
+            />
+          </section>
 
           <div className="contact-banner" data-aos="zoom-in" data-aos-delay="600">
             <div className="banner-content">

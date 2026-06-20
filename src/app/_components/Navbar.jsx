@@ -139,7 +139,7 @@ export default function Navbar({ locale = "en" }) {
                 {t.nav.coverageOptions}
               </Link>
             </li>
-            <li className="dropdown">
+            {/* <li className="dropdown">
               <a
                 href="#"
                 className={selfEnrollmentActive ? "active" : undefined}
@@ -163,7 +163,7 @@ export default function Navbar({ locale = "en" }) {
                   </li>
                 ))}
               </ul>
-            </li>
+            </li> */}
             <li className="dropdown">
               <a
                 href="#"
