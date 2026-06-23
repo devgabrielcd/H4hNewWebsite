@@ -1,36 +1,123 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Health 4 Haitians - New Corporate Website
 
-## Getting Started
+This repository contains the source code for the new corporate website of Health 4 Haitians, a healthcare-focused organization. The project is built using modern web technologies to ensure high performance, scalability, and a seamless user experience.
 
-First, run the development server:
+🚀 Technologies Used
 
-```bash
+•
+Framework: Next.js (React)
+
+•
+Language: JavaScript / TypeScript
+
+•
+Styling: CSS / SCSS
+
+•
+Infrastructure: Deployed and managed with best practices for performance and SEO.
+
+•
+Analytics: Integrated with Meta Pixel for tracking and marketing campaign optimization.
+
+✨ Key Features
+
+•
+Server-Side Rendering (SSR): Optimized for SEO and fast initial page loads.
+
+•
+Responsive Design: Fully compatible with mobile, tablet, and desktop devices.
+
+•
+Modern UI/UX: Clean and intuitive interface designed to serve the organization's mission.
+
+•
+Dynamic Content: Built to handle updates and content changes efficiently.
+
+🛠️ Getting Started
+
+To get a local copy up and running, follow these simple steps:
+
+Prerequisites
+
+•
+Node.js (v18.x or higher recommended)
+
+•
+npm, yarn, or pnpm
+
+Installation
+
+1.
+Clone the repository:
+
+Bash
+
+
+git clone https://github.com/devgabrielcd/H4hNewWebsite.git
+
+
+
+
+
+2.
+Navigate to the project directory:
+
+Bash
+
+
+cd H4hNewWebsite
+
+
+
+
+
+3.
+Install dependencies:
+
+Bash
+
+
+npm install
+# or
+yarn install
+
+
+
+
+
+4.
+Run the development server:
+
+Bash
+
+
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+5.
+Open http://localhost:3000 with your browser to see the result.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📦 Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The project is optimized for deployment on platforms like Vercel, AWS, or Hostinger VPS using Nginx and PM2 for robust process management.
 
-## Deploy on Vercel
+👤 Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Gabriel Dechiara
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+•
+LinkedIn: gabriel-dechiara
+
+•
+GitHub: @devgabrielcd
+
+
+
+
+This project was developed as part of a mission to provide high-quality digital solutions for the healthcare sector.
+
